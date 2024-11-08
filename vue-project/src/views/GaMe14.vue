@@ -19,13 +19,8 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2024-08-02": "https://v.douyu.com/show/Qyz171l5Oa1vBJj9",
-"2024-08-03": "https://v.douyu.com/show/1LDR7QR8RABMJzx8",
-"2024-08-04": "https://v.douyu.com/show/NbwE7ZYlAJPvn5Zz",
-"2024-08-06": "https://v.douyu.com/show/a2JEMJJ20ZYMNxml",
-"2024-08-07": "https://v.douyu.com/show/XqeO74NgYl2WxywG",
-"2024-08-13": "https://v.douyu.com/show/yVY8WwD315LvLOz9",
-"2024-08-14": "https://v.douyu.com/show/ZB5Kv9grebbMa93x",
+"2022-11-29": "https://v.douyu.com/show/8pa9v5PoNapWVrqA",
+"2022-11-30": "https://v.douyu.com/show/NbwE7ZJ2NVy7n5Zz",
       }
     };
   },

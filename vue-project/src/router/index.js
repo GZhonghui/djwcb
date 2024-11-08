@@ -28,6 +28,13 @@ import GaMe25 from '../views/GaMe25.vue';
 import GaMe26 from '../views/GaMe26.vue';
 import GaMe27 from '../views/GaMe27.vue';
 import GaMe28 from '../views/GaMe28.vue';
+import GaMe29 from '../views/GaMe29.vue';
+import GaMe30 from '../views/GaMe30.vue';
+import GaMe31 from '../views/GaMe31.vue';
+import GaMe32 from '../views/GaMe32.vue';
+import GaMe33 from '../views/GaMe33.vue';
+import GaMe34 from '../views/GaMe34.vue';
+import GaMe35 from '../views/GaMe35.vue';
 const routes = [
   {
     path: '/',
@@ -62,6 +69,13 @@ const routes = [
 {path: '/game26', name: 'GaMe26', component: GaMe26},
 {path: '/game27', name: 'GaMe27', component: GaMe27},
 {path: '/game28', name: 'GaMe28', component: GaMe28},
+{path: '/game29', name: 'GaMe29', component: GaMe29},
+{path: '/game30', name: 'GaMe30', component: GaMe30},
+{path: '/game31', name: 'GaMe31', component: GaMe31},
+{path: '/game32', name: 'GaMe32', component: GaMe32},
+{path: '/game33', name: 'GaMe33', component: GaMe33},
+{path: '/game34', name: 'GaMe34', component: GaMe34},
+{path: '/game35', name: 'GaMe35', component: GaMe35},
 ];
 
 const router = createRouter({
