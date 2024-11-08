@@ -4,10 +4,7 @@
 
 # Define a set of button text and corresponding links
 data = {
-    "Game 1": "https://game1.com",
-    "Movie 1": "https://movie1.com",
-    "Game 2": "https://game2.com",
-    "Movie 2": "https://movie2.com",
+    "Title": "rul",
     # You can add more game or movie names as needed...
 }
 
