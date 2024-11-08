@@ -19,18 +19,13 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2022-11-13": "https://v.douyu.com/show/2Bj8vGEXg6yMObnd",
-"2022-11-14": "https://v.douyu.com/show/Kg1VWR4AEGm7GbNA",
-"2022-11-15": "https://v.douyu.com/show/worZv0bNz4lMJBk3",
-"2022-11-16": "https://v.douyu.com/show/Aox27629B007Vz8Z",
-"2022-11-21": "https://v.douyu.com/show/8KxjMd4j9NnMVLwb",
-"2022-11-22": "https://v.douyu.com/show/kDe0W2mQ48RMA4Bz",
-"2022-11-24": "https://v.douyu.com/show/0zZVvP9Gnmq7O4E2",
-"2022-11-25": "https://v.douyu.com/show/n8GzMXmzE2rW6qyP",
-"2022-11-26": "https://v.douyu.com/show/Aox2762QJ5x7Vz8Z",
-"2022-11-27": "https://v.douyu.com/show/yVmjvBbDPyRvqkNb",
-"2022-11-28": "https://v.douyu.com/show/brN0Mm4z2yQ7pyxA",
-"2022-11-29": "https://v.douyu.com/show/8pa9v5PoNapWVrqA",
+"2022-11-02": "https://v.douyu.com/show/Yo4evyxmlX6W8L62",
+"2022-11-05": "https://v.douyu.com/show/qJgOWxZAAnX7kVzL",
+"2022-11-06": "https://v.douyu.com/show/0zZVvP9m1xq7O4E2",
+"2022-11-07": "https://v.douyu.com/show/wLjGvLqp4P27mO90",
+"2022-11-08": "https://v.douyu.com/show/0Q8mMY90O1LM49Ad",
+"2022-11-11": "https://v.douyu.com/show/Bjq4Mer4VyzW5Ea8",
+"2022-11-12": "https://v.douyu.com/show/0zZVvP9RB327O4E2",
       }
     };
   },

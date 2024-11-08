@@ -19,8 +19,7 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2022-11-29": "https://v.douyu.com/show/8pa9v5PoNapWVrqA",
-"2022-11-30": "https://v.douyu.com/show/NbwE7ZJ2NVy7n5Zz",
+"2022-11-28": "https://v.douyu.com/show/brN0Mm4z2yQ7pyxA",
       }
     };
   },

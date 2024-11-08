@@ -35,6 +35,7 @@ import GaMe32 from '../views/GaMe32.vue';
 import GaMe33 from '../views/GaMe33.vue';
 import GaMe34 from '../views/GaMe34.vue';
 import GaMe35 from '../views/GaMe35.vue';
+import GaMe36 from '../views/GaMe36.vue';
 const routes = [
   {
     path: '/',
@@ -76,6 +77,7 @@ const routes = [
 {path: '/game33', name: 'GaMe33', component: GaMe33},
 {path: '/game34', name: 'GaMe34', component: GaMe34},
 {path: '/game35', name: 'GaMe35', component: GaMe35},
+{path: '/game36', name: 'GaMe36', component: GaMe36},
 ];
 
 const router = createRouter({
