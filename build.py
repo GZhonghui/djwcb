@@ -38,7 +38,7 @@ def write_code(code: list, begin_line: int, end_line: int) -> str:
 
 def read_data() -> list:
   data, game_to_id, id_to_game, game_id = dict(), dict(), dict(), 0
-  data_files = [i for i in os.listdir('./data/') if i.split('.')[-1] == 'json']
+  data_files = sorted([i for i in os.listdir('./data/') if i.split('.')[-1] == 'json'])
   for file_name in data_files:
     with open(os.path.join('./data/',file_name), 'r', encoding='utf-8') as file:
       json_data = json.load(file)
