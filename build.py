@@ -1,98 +1,85 @@
-# 本代码由AI生成
+# 解析数据文件！生成Vue的代码
+# index.js + all views
 
-# Python script to generate `GeneratedButtons.vue` file
+import os,json
 
-# Define a set of button text and corresponding links
-data = {
-    "Title": "rul",
-    # You can add more game or movie names as needed...
-}
+# 删除文件，本函数由AI生成
+def delete_all_files_in_directory(directory_path):
+  # Check if the path exists
+  if not os.path.exists(directory_path):
+    print(f"The directory {directory_path} does not exist.")
+    return
+  
+  # Iterate over all files and folders in the directory
+  for filename in os.listdir(directory_path):
+    file_path = os.path.join(directory_path, filename)
+    
+    try:
+      # Check if it is a file
+      if os.path.isfile(file_path) or os.path.islink(file_path):
+        os.remove(file_path)  # Delete the file or symbolic link
+      elif os.path.isdir(file_path):
+        # If it is a folder and you want to delete its contents, you can recursively delete
+        delete_all_files_in_directory(file_path)
+        os.rmdir(file_path)  # Delete the empty folder
+    except Exception as e:
+      print(f"Failed to delete {file_path}. Reason: {e}")
 
-# Generate the content of the Vue component file
-vue_component_content = """
-<template>
-  <div class="app-container">
-    <div class="buttons-container">
-      <button
-        v-for="(link, text) in links"
-        :key="text"
-        @click="goToLink(link)"
-        class="button"
-      >
-        {{ text }}
-      </button>
-    </div>
-  </div>
-</template>
+def read_template(file_path: str) -> list:
+  with open(file_path, 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+    return [line.rstrip('\n') for line in lines]
 
-<script>
-export default {
-  data() {
-    return {
-      links: {
-"""
+def write_code(code: list, begin_line: int, end_line: int) -> str:
+  result = str()
+  for line_id in range(begin_line, end_line + 1):
+    result = result + code[line_id-1] + '\n'
+  return result
 
-# Dynamically add each button text and link to the `links` object
-for text, link in data.items():
-    vue_component_content += f'        "{text}": "{link}",\n'
+def read_data() -> list:
+  data, game_to_id, id_to_game, game_id = dict(), dict(), dict(), 0
+  data_files = [i for i in os.listdir('./data/') if i.split('.')[-1] == 'json']
+  for file_name in data_files:
+    with open(os.path.join('./data/',file_name), 'r', encoding='utf-8') as file:
+      json_data = json.load(file)
+      for date in json_data.keys():
+        if len(json_data[date]['games']) > 0:
+          for game in json_data[date]['games']:
+            if game not in data.keys():
+              data[game] = list()
+              game_id = game_id + 1
+              game_to_id[game],id_to_game[game_id] = game_id,game
+            data[game].append([date,json_data[date]['url']])
+  return data, game_to_id, id_to_game
 
-# End the Vue instance and add the click and navigation method
-vue_component_content += """
-      }
-    };
-  },
-  methods: {
-    goToLink(link) {
-      window.location.href = link;
-    }
-  }
-};
-</script>
+def main():
+  data, game_to_id, id_to_game = read_data()
+  index_js_code = read_template('./template/index.js')
+  views_vue_code = read_template('./template/views.vue')
+  delete_all_files_in_directory('./vue-project/src/views/')
 
-<style scoped>
-/* Transparent container backgrounds */
-.app-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: transparent; /* Ensure no background color */
-}
+  with open('./vue-project/src/router/index.js', 'w', encoding='utf-8') as file:
+    file.write(write_code(index_js_code,3,4))
+    for game in data.keys():
+      file.write(f'import GaMe{game_to_id[game]} from \'../views/GaMe{game_to_id[game]}.vue\';\n')
+    file.write(write_code(index_js_code,6,11))
+    for game in data.keys():
+      file.write(f'{{path: \'/game{game_to_id[game]}\', name: \'GaMe{game_to_id[game]}\', component: GaMe{game_to_id[game]}}},\n')
+    file.write(write_code(index_js_code,12,19))
 
-/* Button container styles */
-.buttons-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 50px;
-  background-color: transparent; /* Ensure no background color */
-}
+  with open('./vue-project/src/views/AllGames.vue', 'w', encoding='utf-8') as file:
+    file.write(write_code(views_vue_code,3,22))
+    for game in data.keys():
+      file.write(f'"{game}": "/game{game_to_id[game]}",\n')
+    file.write(write_code(views_vue_code,24,77))
 
-/* Button styles */
-.button {
-  padding: 15px 25px;
-  font-size: 18px;
-  cursor: pointer;
-  background-color: #ffffff; /* Solid white background */
-  color: #333;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  text-transform: uppercase;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s, transform 0.2s;
-}
+  for game in data.keys():
+    with open(f'./vue-project/src/views/GaMe{game_to_id[game]}.vue', 'w', encoding='utf-8') as file:
+      file.write(write_code(views_vue_code,3,22))
+      file.write(f'"回到首页": "/",\n')
+      for date in data[game]:
+        file.write(f'"{date[0]}": "{date[1]}",\n')
+      file.write(write_code(views_vue_code,24,77))
 
-/* Hover effect for buttons */
-.button:hover {
-  background-color: #f0f0f0;
-  transform: scale(1.03);
-}
-</style>
-"""
-
-# Write the generated content to `GeneratedButtons.vue`
-output_file_path = "vue-project/src/components/GeneratedButtons.vue"
-with open(output_file_path, "w") as file:
-    file.write(vue_component_content)
-
-print(f"Vue component file generated: {output_file_path}")
+if __name__ == '__main__':
+  main()

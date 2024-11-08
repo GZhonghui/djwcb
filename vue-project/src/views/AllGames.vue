@@ -1,11 +1,10 @@
-
 <template>
   <div class="app-container">
     <div class="buttons-container">
       <button
         v-for="(link, text) in links"
         :key="text"
-        @click="goToLink(link)"
+        @click="go(link)"
         class="button"
       >
         {{ text }}
@@ -19,14 +18,27 @@ export default {
   data() {
     return {
       links: {
-        "Title": "rul",
-
+"深海迷航": "/game1",
+"漫威终极逆转": "/game2",
+"逆转检察官": "/game3",
+"超级键盘侠": "/game4",
+"答题活动": "/game5",
+"逆转检察官2": "/game6",
+"美女室友竟然": "/game7",
+"战神5": "/game8",
+"关山大道路人王": "/game9",
+"专业人士": "/game10",
+"中国式网游DLC": "/game11",
       }
     };
   },
   methods: {
-    goToLink(link) {
-      window.location.href = link;
+    go(link) {
+      if (link.startsWith('/')) {
+        this.$router.push(link);
+      } else {
+        window.open(link, '_blank'); // window.location.href = link;
+      }
     }
   }
 };
