@@ -53,26 +53,22 @@ vue_component_content += """
 </script>
 
 <style scoped>
-/* Center the entire page */
+/* Transparent container backgrounds */
 .app-container {
-  position: relative;
-  overflow: hidden;
-  background-color: #f5e8e4; /* Light beige/pink background */
-  min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 20px; /* Add padding to avoid button overflow on hover */
-  box-sizing: border-box;
+  align-items: center;
+  min-height: 100vh;
+  background-color: transparent; /* Ensure no background color */
 }
 
 /* Button container styles */
 .buttons-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
-  padding: 50px 0;
+  padding: 50px;
+  background-color: transparent; /* Ensure no background color */
 }
 
 /* Button styles */
@@ -80,19 +76,19 @@ vue_component_content += """
   padding: 15px 25px;
   font-size: 18px;
   cursor: pointer;
-  background-color: #28a745;
-  color: white;
-  border: none;
+  background-color: #ffffff; /* Solid white background */
+  color: #333;
+  border: 1px solid #ddd;
   border-radius: 12px;
   text-transform: uppercase;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, transform 0.2s;
 }
 
 /* Hover effect for buttons */
 .button:hover {
-  background-color: #218838;
-  transform: scale(1.03); /* Control hover scale to avoid overflow */
+  background-color: #f0f0f0;
+  transform: scale(1.03);
 }
 </style>
 """
