@@ -1,2 +1,1 @@
-# djwcb
-异灵术老师的录播（老年人活动）
+https://djw.line.pm/
