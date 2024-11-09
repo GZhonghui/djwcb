@@ -36,6 +36,11 @@ import GaMe33 from '../views/GaMe33.vue';
 import GaMe34 from '../views/GaMe34.vue';
 import GaMe35 from '../views/GaMe35.vue';
 import GaMe36 from '../views/GaMe36.vue';
+import GaMe37 from '../views/GaMe37.vue';
+import GaMe38 from '../views/GaMe38.vue';
+import GaMe39 from '../views/GaMe39.vue';
+import GaMe40 from '../views/GaMe40.vue';
+import GaMe41 from '../views/GaMe41.vue';
 const routes = [
   {
     path: '/',
@@ -78,6 +83,11 @@ const routes = [
 {path: '/game34', name: 'GaMe34', component: GaMe34},
 {path: '/game35', name: 'GaMe35', component: GaMe35},
 {path: '/game36', name: 'GaMe36', component: GaMe36},
+{path: '/game37', name: 'GaMe37', component: GaMe37},
+{path: '/game38', name: 'GaMe38', component: GaMe38},
+{path: '/game39', name: 'GaMe39', component: GaMe39},
+{path: '/game40', name: 'GaMe40', component: GaMe40},
+{path: '/game41', name: 'GaMe41', component: GaMe41},
 ];
 
 const router = createRouter({
