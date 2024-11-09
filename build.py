@@ -44,12 +44,13 @@ def read_data() -> list:
       json_data = json.load(file)
       for date in json_data.keys():
         if len(json_data[date]['games']) > 0:
-          for game in json_data[date]['games']:
+          for game_data in json_data[date]['games']:
+            game = game_data if isinstance(game_data, str) else game_data[0]
             if game not in data.keys():
               data[game] = list()
               game_id = game_id + 1
               game_to_id[game],id_to_game[game_id] = game_id,game
-            data[game].append([date,json_data[date]['url']])
+            data[game].append([date if isinstance(game_data, str) else f'{date}[{game_data[1]}]',json_data[date]['url']])
   return data, game_to_id, id_to_game
 
 def main():
