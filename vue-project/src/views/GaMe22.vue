@@ -19,15 +19,13 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2023-06-06": "https://v.douyu.com/show/Aox276Dk14NWVz8Z",
-"2023-06-07": "https://v.douyu.com/show/6Aw87O8mqGgMYGkg",
-"2023-06-09": "https://v.douyu.com/show/4xq3WDBKqOo7LGNz",
-"2023-06-10": "https://v.douyu.com/show/X3JzMaQm60GMPQro",
-"2023-06-11": "https://v.douyu.com/show/Drwnvzgm68n7PNaX",
-"2023-06-13": "https://v.douyu.com/show/2V0JMVGlJBAWRY5k",
-"2023-06-14": "https://v.douyu.com/show/85BAvq8RKkyWG4Lm",
-"2023-06-16": "https://v.douyu.com/show/r90XWgjdOQ2Mgk25",
-"2023-06-17": "https://v.douyu.com/show/LDBbMAN5YNBWyJRP",
+"2023-01-11": "https://v.douyu.com/show/DrwnvzZYLjQvPNaX",
+"2023-01-12": "https://v.douyu.com/show/brN0Mm4E8E37pyxA",
+"2023-01-13": "https://v.douyu.com/show/EO0XvN325587DrBd",
+"2023-01-24": "https://v.douyu.com/show/Qyz171Z2zpbMBJj9",
+"2023-02-14": "https://v.douyu.com/show/Kg1VWR468BP7GbNA",
+"2023-02-15": "https://v.douyu.com/show/1LDR7QJ6XAVMJzx8",
+"2023-02-22": "https://v.douyu.com/show/1LDR7QJALoBMJzx8",
       }
     };
   },
