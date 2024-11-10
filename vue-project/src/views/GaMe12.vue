@@ -19,8 +19,16 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2022-10-11": "https://v.douyu.com/show/Bjq4Me02P0z75Ea8",
-"2022-10-12": "https://v.douyu.com/show/aRbBv3J9mL2W6PYV",
+"2022-10-03": "https://v.douyu.com/show/0zZVvPA42KE7O4E2",
+"2022-11-23": "https://v.douyu.com/show/DrwnvzZP62nvPNaX",
+"2023-01-21": "https://v.douyu.com/show/2V0JMVVRnxEMRY5k",
+"2023-05-16": "https://v.douyu.com/show/2V0JMVGBOlAWRY5k",
+"2024-02-09[大年夜，户外烟花]": "https://v.douyu.com/show/brN0Mmxkjr57pyxA",
+"2024-04-29[大鲤鱼]": "https://v.douyu.com/show/mPyq7o8OVrmM1gLY",
+"2024-05-13[周一钓鱼]": "https://v.douyu.com/show/ZB5Kv9YN8j2va93x",
+"2024-05-20[钓鱼]": "https://v.douyu.com/show/a2JEMJnRN3DMNxml",
+"2024-07-28[小戴在CJ]": "https://v.douyu.com/show/jNBdvnbVKQzvE2yw",
+"2024-08-28": "https://v.douyu.com/show/JmbBMkolAxKM40XA",
       }
     };
   },

@@ -19,7 +19,7 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2020-08-03": "https://v.douyu.com/show/wLjGvL5PQQN7mO90",
+"2020-08-03[宫内破戒僧]": "https://v.douyu.com/show/wLjGvL5PQQN7mO90",
       }
     };
   },

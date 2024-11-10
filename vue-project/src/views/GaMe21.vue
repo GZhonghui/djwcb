@@ -19,7 +19,19 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2023-01-09[舞台剧（直播间当家）]": "https://v.douyu.com/show/4xq3WDpmwErWLGNz",
+"2022-11-28": "https://v.douyu.com/show/brN0Mm4z2yQ7pyxA",
+"2023-01-12": "https://v.douyu.com/show/brN0Mm4E8E37pyxA",
+"2023-01-14": "https://v.douyu.com/show/JmbBMk9J9AYv40XA",
+"2023-01-15": "https://v.douyu.com/show/0Q8mMY9NgxjM49Ad",
+"2023-01-18": "https://v.douyu.com/show/yVmjvBbRxwdvqkNb",
+"2023-02-01": "https://v.douyu.com/show/jwzOvpGDoxDWZVRm",
+"2023-02-02": "https://v.douyu.com/show/XqeO74AnxN1MxywG",
+"2023-02-08": "https://v.douyu.com/show/6Aw87OOXb0j7YGkg",
+"2023-02-15": "https://v.douyu.com/show/1LDR7QJ6XAVMJzx8",
+"2023-02-18": "https://v.douyu.com/show/0zZVvP9eZRo7O4E2",
+"2023-03-01": "https://v.douyu.com/show/8pa9v5Pyb4pWVrqA",
+"2023-04-07": "https://v.douyu.com/show/2Bj8vGEReeQMObnd",
+"2024-03-01": "https://v.douyu.com/show/qJgOWxgVjeNMkVzL",
       }
     };
   },

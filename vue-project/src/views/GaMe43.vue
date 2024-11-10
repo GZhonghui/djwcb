@@ -19,10 +19,10 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2023-06-18": "https://v.douyu.com/show/EO0XvNbz0OjvDrBd",
-"2023-06-20": "https://v.douyu.com/show/GnzXvbQOwdwW462l",
-"2023-06-21": "https://v.douyu.com/show/2V0JMVGbGwEWRY5k",
-"2023-06-23": "https://v.douyu.com/show/aRbBv3ARQxbM6PYV",
+"2023-05-31": "https://v.douyu.com/show/1LDR7QZN3aZMJzx8",
+"2023-06-02": "https://v.douyu.com/show/0Q8mMYYkwD2M49Ad",
+"2023-06-03": "https://v.douyu.com/show/8KxjMdGJOeV7VLwb",
+"2023-06-04": "https://v.douyu.com/show/aRbBv3AoB9mM6PYV",
       }
     };
   },

@@ -69,6 +69,43 @@ import GaMe66 from '../views/GaMe66.vue';
 import GaMe67 from '../views/GaMe67.vue';
 import GaMe68 from '../views/GaMe68.vue';
 import GaMe69 from '../views/GaMe69.vue';
+import GaMe70 from '../views/GaMe70.vue';
+import GaMe71 from '../views/GaMe71.vue';
+import GaMe72 from '../views/GaMe72.vue';
+import GaMe73 from '../views/GaMe73.vue';
+import GaMe74 from '../views/GaMe74.vue';
+import GaMe75 from '../views/GaMe75.vue';
+import GaMe76 from '../views/GaMe76.vue';
+import GaMe77 from '../views/GaMe77.vue';
+import GaMe78 from '../views/GaMe78.vue';
+import GaMe79 from '../views/GaMe79.vue';
+import GaMe80 from '../views/GaMe80.vue';
+import GaMe81 from '../views/GaMe81.vue';
+import GaMe82 from '../views/GaMe82.vue';
+import GaMe83 from '../views/GaMe83.vue';
+import GaMe84 from '../views/GaMe84.vue';
+import GaMe85 from '../views/GaMe85.vue';
+import GaMe86 from '../views/GaMe86.vue';
+import GaMe87 from '../views/GaMe87.vue';
+import GaMe88 from '../views/GaMe88.vue';
+import GaMe89 from '../views/GaMe89.vue';
+import GaMe90 from '../views/GaMe90.vue';
+import GaMe91 from '../views/GaMe91.vue';
+import GaMe92 from '../views/GaMe92.vue';
+import GaMe93 from '../views/GaMe93.vue';
+import GaMe94 from '../views/GaMe94.vue';
+import GaMe95 from '../views/GaMe95.vue';
+import GaMe96 from '../views/GaMe96.vue';
+import GaMe97 from '../views/GaMe97.vue';
+import GaMe98 from '../views/GaMe98.vue';
+import GaMe99 from '../views/GaMe99.vue';
+import GaMe100 from '../views/GaMe100.vue';
+import GaMe101 from '../views/GaMe101.vue';
+import GaMe102 from '../views/GaMe102.vue';
+import GaMe103 from '../views/GaMe103.vue';
+import GaMe104 from '../views/GaMe104.vue';
+import GaMe105 from '../views/GaMe105.vue';
+import GaMe106 from '../views/GaMe106.vue';
 const routes = [
   {
     path: '/',
@@ -144,6 +181,43 @@ const routes = [
 {path: '/game67', name: 'GaMe67', component: GaMe67},
 {path: '/game68', name: 'GaMe68', component: GaMe68},
 {path: '/game69', name: 'GaMe69', component: GaMe69},
+{path: '/game70', name: 'GaMe70', component: GaMe70},
+{path: '/game71', name: 'GaMe71', component: GaMe71},
+{path: '/game72', name: 'GaMe72', component: GaMe72},
+{path: '/game73', name: 'GaMe73', component: GaMe73},
+{path: '/game74', name: 'GaMe74', component: GaMe74},
+{path: '/game75', name: 'GaMe75', component: GaMe75},
+{path: '/game76', name: 'GaMe76', component: GaMe76},
+{path: '/game77', name: 'GaMe77', component: GaMe77},
+{path: '/game78', name: 'GaMe78', component: GaMe78},
+{path: '/game79', name: 'GaMe79', component: GaMe79},
+{path: '/game80', name: 'GaMe80', component: GaMe80},
+{path: '/game81', name: 'GaMe81', component: GaMe81},
+{path: '/game82', name: 'GaMe82', component: GaMe82},
+{path: '/game83', name: 'GaMe83', component: GaMe83},
+{path: '/game84', name: 'GaMe84', component: GaMe84},
+{path: '/game85', name: 'GaMe85', component: GaMe85},
+{path: '/game86', name: 'GaMe86', component: GaMe86},
+{path: '/game87', name: 'GaMe87', component: GaMe87},
+{path: '/game88', name: 'GaMe88', component: GaMe88},
+{path: '/game89', name: 'GaMe89', component: GaMe89},
+{path: '/game90', name: 'GaMe90', component: GaMe90},
+{path: '/game91', name: 'GaMe91', component: GaMe91},
+{path: '/game92', name: 'GaMe92', component: GaMe92},
+{path: '/game93', name: 'GaMe93', component: GaMe93},
+{path: '/game94', name: 'GaMe94', component: GaMe94},
+{path: '/game95', name: 'GaMe95', component: GaMe95},
+{path: '/game96', name: 'GaMe96', component: GaMe96},
+{path: '/game97', name: 'GaMe97', component: GaMe97},
+{path: '/game98', name: 'GaMe98', component: GaMe98},
+{path: '/game99', name: 'GaMe99', component: GaMe99},
+{path: '/game100', name: 'GaMe100', component: GaMe100},
+{path: '/game101', name: 'GaMe101', component: GaMe101},
+{path: '/game102', name: 'GaMe102', component: GaMe102},
+{path: '/game103', name: 'GaMe103', component: GaMe103},
+{path: '/game104', name: 'GaMe104', component: GaMe104},
+{path: '/game105', name: 'GaMe105', component: GaMe105},
+{path: '/game106', name: 'GaMe106', component: GaMe106},
 ];
 
 const router = createRouter({
