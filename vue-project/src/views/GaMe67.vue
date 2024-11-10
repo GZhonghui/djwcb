@@ -19,13 +19,14 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2024-03-09": "https://v.douyu.com/show/DrwnvzgxQ6l7PNaX",
-"2024-03-10": "https://v.douyu.com/show/a2JEMJn1dVYMNxml",
-"2024-03-12": "https://v.douyu.com/show/1LDR7QZrpZgMJzx8",
-"2024-03-13": "https://v.douyu.com/show/jNBdvn8yVXJME2yw",
-"2024-03-15": "https://v.douyu.com/show/a2JEMJnqKmkMNxml",
-"2024-03-16": "https://v.douyu.com/show/n8GzMX82dKAM6qyP",
-"2024-03-17": "https://v.douyu.com/show/4xq3WDBGYwN7LGNz",
+"2023-08-19": "https://v.douyu.com/show/brN0MmxXXLO7pyxA",
+"2023-08-20": "https://v.douyu.com/show/Kp1QM8AB15RWk4bj",
+"2023-08-22": "https://v.douyu.com/show/2Bj8vGpky6V7Obnd",
+"2023-08-23": "https://v.douyu.com/show/a4Jj7l8XRB67Dk01",
+"2023-08-25": "https://v.douyu.com/show/worZv0ZXkpGMJBk3",
+"2023-08-26": "https://v.douyu.com/show/yVY8Wwd5dmBvLOz9",
+"2023-08-27": "https://v.douyu.com/show/ERALvE8B39aW1Vw0",
+"2023-08-29": "https://v.douyu.com/show/a2JEMJnOeV2MNxml",
       }
     };
   },

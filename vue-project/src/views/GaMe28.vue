@@ -19,7 +19,10 @@ export default {
     return {
       links: {
 "回到首页": "/",
+"2023-01-16": "https://v.douyu.com/show/yVmjvBbmy4zvqkNb",
 "2023-01-20": "https://v.douyu.com/show/qJgOWxZ0BVn7kVzL",
+"2023-02-21[水友活动]": "https://v.douyu.com/show/XqeO74A09ayMxywG",
+"2023-05-09[团建]": "https://v.douyu.com/show/8KxjMd4NzAmMVLwb",
       }
     };
   },

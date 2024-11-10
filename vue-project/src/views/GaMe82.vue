@@ -19,8 +19,12 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2024-06-01[水友赛]": "https://v.douyu.com/show/8pa9v5eb4ApvVrqA",
-"2024-06-02[水友赛]": "https://v.douyu.com/show/Kp1QM8YN0AkWk4bj",
+"2024-01-10": "https://v.douyu.com/show/X3JzMaQPa6VMPQro",
+"2024-01-12": "https://v.douyu.com/show/8KxjMdGmjOg7VLwb",
+"2024-01-13": "https://v.douyu.com/show/LDBbMAN6K0EWyJRP",
+"2024-01-14": "https://v.douyu.com/show/JmbBMkg3kXNM40XA",
+"2024-01-16": "https://v.douyu.com/show/DrwnvzgQLPn7PNaX",
+"2024-01-17[结局]": "https://v.douyu.com/show/DrwnvzgQrAO7PNaX",
       }
     };
   },

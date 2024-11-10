@@ -19,13 +19,18 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2024-02-03": "https://v.douyu.com/show/worZv0ZlPJ2MJBk3",
-"2024-02-04": "https://v.douyu.com/show/yVY8WwdzNyVvLOz9",
-"2024-02-06": "https://v.douyu.com/show/8pa9v5NVLQP7VrqA",
-"2024-02-07": "https://v.douyu.com/show/85BAvq8NBgyWG4Lm",
-"2024-02-11": "https://v.douyu.com/show/X3JzMaQL3GVMPQro",
-"2024-02-12": "https://v.douyu.com/show/ERALvE8LlGaW1Vw0",
-"2024-02-13": "https://v.douyu.com/show/X3JzMaQLl0YMPQro",
+"2023-07-11": "https://v.douyu.com/show/0zZVvPo9mOmWO4E2",
+"2023-07-14": "https://v.douyu.com/show/Kg1VWR84Jjm7GbNA",
+"2023-07-25": "https://v.douyu.com/show/DrwnvzgDAzn7PNaX",
+"2023-07-26": "https://v.douyu.com/show/1LDR7QZRJR6MJzx8",
+"2023-07-30": "https://v.douyu.com/show/85BAvq8QykbWG4Lm",
+"2023-08-01[有比赛]": "https://v.douyu.com/show/LDBbMANA43BWyJRP",
+"2023-08-03[有比赛]": "https://v.douyu.com/show/kDe0W2Dkk387A4Bz",
+"2023-08-18": "https://v.douyu.com/show/Aox276De2e2WVz8Z",
+"2023-08-30": "https://v.douyu.com/show/8pa9v5NXLpR7VrqA",
+"2023-11-30": "https://v.douyu.com/show/n8GzMX8e0r1M6qyP",
+"2023-12-01[比赛海选]": "https://v.douyu.com/show/yVY8WwdpDLVvLOz9",
+"2023-12-11[比赛-16强]": "https://v.douyu.com/show/qJgOWxgwRLZMkVzL",
       }
     };
   },

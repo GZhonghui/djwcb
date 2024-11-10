@@ -19,14 +19,16 @@ export default {
     return {
       links: {
 "回到首页": "/",
+"2023-02-24": "https://v.douyu.com/show/NVm0WKzOoV8MJeBP",
+"2023-02-25": "https://v.douyu.com/show/2V0JMVV2g2DMRY5k",
+"2023-03-03": "https://v.douyu.com/show/r90XWgq8zkK7gk25",
+"2023-03-04": "https://v.douyu.com/show/aRbBv3Pg3jD76PYV",
+"2023-03-07": "https://v.douyu.com/show/r90XWgqlXOw7gk25",
+"2023-03-14": "https://v.douyu.com/show/Kg1VWR40Q0L7GbNA",
 "2023-03-15": "https://v.douyu.com/show/2Bj8vGE2rdLMObnd",
-"2023-03-22": "https://v.douyu.com/show/6Aw87OON4p47YGkg",
-"2023-03-30": "https://v.douyu.com/show/qJgOWxZV2ol7kVzL",
-"2023-04-14": "https://v.douyu.com/show/jwzOvpGK3nQWZVRm",
-"2023-04-21": "https://v.douyu.com/show/Kg1VWR4nwxL7GbNA",
-"2023-05-07": "https://v.douyu.com/show/ERALvEbk0Qx71Vw0",
-"2024-05-01[和NO总双人战棋]": "https://v.douyu.com/show/r90XWgjK9xOMgk25",
-"2024-05-03[和NO总双人战棋]": "https://v.douyu.com/show/Aox276DlE4KWVz8Z",
+"2023-03-16": "https://v.douyu.com/show/DO84vrKyLAl7edGr",
+"2023-03-18": "https://v.douyu.com/show/Aox2762LPA27Vz8Z",
+"2023-03-21": "https://v.douyu.com/show/85BAvqKNb3BMG4Lm",
       }
     };
   },
