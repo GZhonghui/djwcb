@@ -54,6 +54,8 @@ export default {
 "2022-10-10": "https://v.douyu.com/show/JmbBMklEw6yW40XA",
 "2023-01-11": "https://v.douyu.com/show/DrwnvzZYLjQvPNaX",
 "2023-01-13": "https://v.douyu.com/show/EO0XvN325587DrBd",
+"2023-07-21": "https://v.douyu.com/show/n8GzMX88oGbM6qyP",
+"2023-08-06": "https://v.douyu.com/show/6Aw87O8gr8xMYGkg",
       }
     };
   },

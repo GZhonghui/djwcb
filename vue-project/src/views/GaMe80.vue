@@ -19,12 +19,7 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2024-05-14": "https://v.douyu.com/show/8pa9v5N8lj17VrqA",
-"2024-05-15": "https://v.douyu.com/show/8pa9v5N8JR17VrqA",
-"2024-05-17": "https://v.douyu.com/show/NVm0WKNEOjbMJeBP",
-"2024-05-18": "https://v.douyu.com/show/85BAvq8ay81WG4Lm",
-"2024-05-19": "https://v.douyu.com/show/JmbBMkgLpDQM40XA",
-"2024-05-21": "https://v.douyu.com/show/a4Jj7lBPPG4WDk01",
+"2023-12-19": "https://v.douyu.com/show/8KxjMdGLwLk7VLwb",
       }
     };
   },

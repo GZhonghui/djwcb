@@ -106,6 +106,33 @@ import GaMe103 from '../views/GaMe103.vue';
 import GaMe104 from '../views/GaMe104.vue';
 import GaMe105 from '../views/GaMe105.vue';
 import GaMe106 from '../views/GaMe106.vue';
+import GaMe107 from '../views/GaMe107.vue';
+import GaMe108 from '../views/GaMe108.vue';
+import GaMe109 from '../views/GaMe109.vue';
+import GaMe110 from '../views/GaMe110.vue';
+import GaMe111 from '../views/GaMe111.vue';
+import GaMe112 from '../views/GaMe112.vue';
+import GaMe113 from '../views/GaMe113.vue';
+import GaMe114 from '../views/GaMe114.vue';
+import GaMe115 from '../views/GaMe115.vue';
+import GaMe116 from '../views/GaMe116.vue';
+import GaMe117 from '../views/GaMe117.vue';
+import GaMe118 from '../views/GaMe118.vue';
+import GaMe119 from '../views/GaMe119.vue';
+import GaMe120 from '../views/GaMe120.vue';
+import GaMe121 from '../views/GaMe121.vue';
+import GaMe122 from '../views/GaMe122.vue';
+import GaMe123 from '../views/GaMe123.vue';
+import GaMe124 from '../views/GaMe124.vue';
+import GaMe125 from '../views/GaMe125.vue';
+import GaMe126 from '../views/GaMe126.vue';
+import GaMe127 from '../views/GaMe127.vue';
+import GaMe128 from '../views/GaMe128.vue';
+import GaMe129 from '../views/GaMe129.vue';
+import GaMe130 from '../views/GaMe130.vue';
+import GaMe131 from '../views/GaMe131.vue';
+import GaMe132 from '../views/GaMe132.vue';
+import GaMe133 from '../views/GaMe133.vue';
 const routes = [
   {
     path: '/',
@@ -218,6 +245,33 @@ const routes = [
 {path: '/game104', name: 'GaMe104', component: GaMe104},
 {path: '/game105', name: 'GaMe105', component: GaMe105},
 {path: '/game106', name: 'GaMe106', component: GaMe106},
+{path: '/game107', name: 'GaMe107', component: GaMe107},
+{path: '/game108', name: 'GaMe108', component: GaMe108},
+{path: '/game109', name: 'GaMe109', component: GaMe109},
+{path: '/game110', name: 'GaMe110', component: GaMe110},
+{path: '/game111', name: 'GaMe111', component: GaMe111},
+{path: '/game112', name: 'GaMe112', component: GaMe112},
+{path: '/game113', name: 'GaMe113', component: GaMe113},
+{path: '/game114', name: 'GaMe114', component: GaMe114},
+{path: '/game115', name: 'GaMe115', component: GaMe115},
+{path: '/game116', name: 'GaMe116', component: GaMe116},
+{path: '/game117', name: 'GaMe117', component: GaMe117},
+{path: '/game118', name: 'GaMe118', component: GaMe118},
+{path: '/game119', name: 'GaMe119', component: GaMe119},
+{path: '/game120', name: 'GaMe120', component: GaMe120},
+{path: '/game121', name: 'GaMe121', component: GaMe121},
+{path: '/game122', name: 'GaMe122', component: GaMe122},
+{path: '/game123', name: 'GaMe123', component: GaMe123},
+{path: '/game124', name: 'GaMe124', component: GaMe124},
+{path: '/game125', name: 'GaMe125', component: GaMe125},
+{path: '/game126', name: 'GaMe126', component: GaMe126},
+{path: '/game127', name: 'GaMe127', component: GaMe127},
+{path: '/game128', name: 'GaMe128', component: GaMe128},
+{path: '/game129', name: 'GaMe129', component: GaMe129},
+{path: '/game130', name: 'GaMe130', component: GaMe130},
+{path: '/game131', name: 'GaMe131', component: GaMe131},
+{path: '/game132', name: 'GaMe132', component: GaMe132},
+{path: '/game133', name: 'GaMe133', component: GaMe133},
 ];
 
 const router = createRouter({
