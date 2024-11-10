@@ -19,7 +19,7 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2023-02-03": "https://v.douyu.com/show/aRbBv3PyA6m76PYV",
+"2023-01-09[舞台剧（直播间当家）]": "https://v.douyu.com/show/4xq3WDpmwErWLGNz",
       }
     };
   },

@@ -133,6 +133,19 @@ import GaMe130 from '../views/GaMe130.vue';
 import GaMe131 from '../views/GaMe131.vue';
 import GaMe132 from '../views/GaMe132.vue';
 import GaMe133 from '../views/GaMe133.vue';
+import GaMe134 from '../views/GaMe134.vue';
+import GaMe135 from '../views/GaMe135.vue';
+import GaMe136 from '../views/GaMe136.vue';
+import GaMe137 from '../views/GaMe137.vue';
+import GaMe138 from '../views/GaMe138.vue';
+import GaMe139 from '../views/GaMe139.vue';
+import GaMe140 from '../views/GaMe140.vue';
+import GaMe141 from '../views/GaMe141.vue';
+import GaMe142 from '../views/GaMe142.vue';
+import GaMe143 from '../views/GaMe143.vue';
+import GaMe144 from '../views/GaMe144.vue';
+import GaMe145 from '../views/GaMe145.vue';
+import GaMe146 from '../views/GaMe146.vue';
 const routes = [
   {
     path: '/',
@@ -272,6 +285,19 @@ const routes = [
 {path: '/game131', name: 'GaMe131', component: GaMe131},
 {path: '/game132', name: 'GaMe132', component: GaMe132},
 {path: '/game133', name: 'GaMe133', component: GaMe133},
+{path: '/game134', name: 'GaMe134', component: GaMe134},
+{path: '/game135', name: 'GaMe135', component: GaMe135},
+{path: '/game136', name: 'GaMe136', component: GaMe136},
+{path: '/game137', name: 'GaMe137', component: GaMe137},
+{path: '/game138', name: 'GaMe138', component: GaMe138},
+{path: '/game139', name: 'GaMe139', component: GaMe139},
+{path: '/game140', name: 'GaMe140', component: GaMe140},
+{path: '/game141', name: 'GaMe141', component: GaMe141},
+{path: '/game142', name: 'GaMe142', component: GaMe142},
+{path: '/game143', name: 'GaMe143', component: GaMe143},
+{path: '/game144', name: 'GaMe144', component: GaMe144},
+{path: '/game145', name: 'GaMe145', component: GaMe145},
+{path: '/game146', name: 'GaMe146', component: GaMe146},
 ];
 
 const router = createRouter({

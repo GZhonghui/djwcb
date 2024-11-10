@@ -19,9 +19,9 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2023-01-25": "https://v.douyu.com/show/4xq3WDpYAZRWLGNz",
-"2023-01-26[传奇！雨中种植物]": "https://v.douyu.com/show/0Q8mMY9DDgkM49Ad",
-"2023-01-27": "https://v.douyu.com/show/yVY8Ww6n2AoMLOz9",
+"2022-11-17": "https://v.douyu.com/show/DO84vrKo6ml7edGr",
+"2022-11-19": "https://v.douyu.com/show/2V0JMVVl6y6MRY5k",
+"2022-11-20": "https://v.douyu.com/show/XqeO74AEGnyMxywG",
       }
     };
   },

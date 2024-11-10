@@ -19,6 +19,7 @@ export default {
     return {
       links: {
 "回到首页": "/",
+"2018-06-13": "https://v.douyu.com/show/Bjq4MeDrRgA75Ea8",
 "2018-09-17": "https://v.douyu.com/show/8pa9v5pKLN5WVrqA",
       }
     };

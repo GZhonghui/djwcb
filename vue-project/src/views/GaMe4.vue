@@ -19,12 +19,8 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2022-07-01": "https://v.douyu.com/show/Kg1VWRB2njQWGbNA",
-"2022-07-08": "https://v.douyu.com/show/DrwnvzKq8wQ7PNaX",
-"2022-07-09": "https://v.douyu.com/show/ZB5Kv9o0O38Ma93x",
-"2022-07-10": "https://v.douyu.com/show/0Q8mMYGogoNv49Ad",
-"2022-07-12": "https://v.douyu.com/show/DO84vr92PrQWedGr",
-"2022-07-13": "https://v.douyu.com/show/qJgOWxmEjZRvkVzL",
+"2018-12-11[住院了]": "https://v.douyu.com/show/0zZVvPz4j1bMO4E2",
+"2018-12-16[住院了]": "https://v.douyu.com/show/mPyq7oJyD82v1gLY",
       }
     };
   },

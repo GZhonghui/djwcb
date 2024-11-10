@@ -19,9 +19,10 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2024-05-07": "https://v.douyu.com/show/8pa9v5NgdA17VrqA",
-"2024-05-08": "https://v.douyu.com/show/Kg1VWR8ZrwN7GbNA",
-"2024-05-12": "https://v.douyu.com/show/2V0JMVGzV35WRY5k",
+"2024-03-02": "https://v.douyu.com/show/0Q8mMYYz11LM49Ad",
+"2024-03-03": "https://v.douyu.com/show/6Aw87O8AZLZMYGkg",
+"2024-03-05": "https://v.douyu.com/show/NbwE7Z8q5jpWn5Zz",
+"2024-03-06[大结局]": "https://v.douyu.com/show/mPyq7o81paqM1gLY",
       }
     };
   },

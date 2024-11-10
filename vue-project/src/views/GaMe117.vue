@@ -19,7 +19,13 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2024-07-16": "https://v.douyu.com/show/Aox276Y9yJ8vVz8Z",
+"2024-04-24": "https://v.douyu.com/show/2V0JMVG9gDDWRY5k",
+"2024-04-26": "https://v.douyu.com/show/DO84vr8xx90MedGr",
+"2024-04-27": "https://v.douyu.com/show/2V0JMVGEKBkWRY5k",
+"2024-04-28": "https://v.douyu.com/show/3rob7jQ6Kb1vgkZl",
+"2024-04-30[月末放羊]": "https://v.douyu.com/show/n8GzMX8Y161M6qyP",
+"2024-05-04": "https://v.douyu.com/show/6Aw87O8PBgxMYGkg",
+"2024-05-05": "https://v.douyu.com/show/worZv0ZjJOpMJBk3",
       }
     };
   },

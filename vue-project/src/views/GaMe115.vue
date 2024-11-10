@@ -19,10 +19,8 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2024-07-09": "https://v.douyu.com/show/2Bj8vG3XmeVvObnd",
-"2024-07-10": "https://v.douyu.com/show/wLjGvLr5qxRMmO90",
-"2024-07-12": "https://v.douyu.com/show/mPyq7obQD5Qv1gLY",
-"2024-07-13": "https://v.douyu.com/show/85BAvqQ9noXvG4Lm",
+"2024-04-17": "https://v.douyu.com/show/X3JzMaQbk31MPQro",
+"2024-04-19[周末安排小黑屋大乱斗]": "https://v.douyu.com/show/worZv0ZrXJoMJBk3",
       }
     };
   },

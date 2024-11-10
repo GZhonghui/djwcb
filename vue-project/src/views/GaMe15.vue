@@ -19,11 +19,7 @@ export default {
     return {
       links: {
 "回到首页": "/",
-"2022-10-14": "https://v.douyu.com/show/0zZVvPAdPR47O4E2",
-"2022-10-15": "https://v.douyu.com/show/NbwE7Z2kpxP7n5Zz",
-"2022-10-16": "https://v.douyu.com/show/Kg1VWRBqleLWGbNA",
-"2022-10-18": "https://v.douyu.com/show/2V0JMVxEGEEvRY5k",
-"2022-10-19": "https://v.douyu.com/show/GnzXvblxqzwM462l",
+"2020-05-16[搞笑视频 + KTV]": "https://v.douyu.com/show/mPyq7o65ZwYv1gLY",
       }
     };
   },
