@@ -18,15 +18,10 @@ export default {
   data() {
     return {
       links: {
-"2023-01-11": "https://v.douyu.com/show/DrwnvzZYLjQvPNaX",
-"2023-01-12": "https://v.douyu.com/show/brN0Mm4E8E37pyxA",
-"2023-01-13": "https://v.douyu.com/show/EO0XvN325587DrBd",
-"2023-01-17": "https://v.douyu.com/show/a2JEMJbadlmMNxml",
-"2023-01-24": "https://v.douyu.com/show/Qyz171Z2zpbMBJj9",
-"2023-02-05": "https://v.douyu.com/show/3rob7jOAeZbMgkZl",
-"2023-02-14": "https://v.douyu.com/show/Kg1VWR468BP7GbNA",
-"2023-02-15": "https://v.douyu.com/show/1LDR7QJ6XAVMJzx8",
-"2023-02-22": "https://v.douyu.com/show/1LDR7QJALoBMJzx8",
+"2023-01-16": "https://v.douyu.com/show/yVmjvBbmy4zvqkNb",
+"2023-01-20": "https://v.douyu.com/show/qJgOWxZ0BVn7kVzL",
+"2023-02-21[水友活动]": "https://v.douyu.com/show/XqeO74A09ayMxywG",
+"2023-05-09[团建]": "https://v.douyu.com/show/8KxjMd4NzAmMVLwb",
       }
     };
   },

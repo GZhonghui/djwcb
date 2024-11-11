@@ -18,8 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2024-06-01[水友赛]": "https://v.douyu.com/show/8pa9v5eb4ApvVrqA",
-"2024-06-02[水友赛]": "https://v.douyu.com/show/Kp1QM8YN0AkWk4bj",
+"2024-07-03": "https://v.douyu.com/show/qJgOWx52dqKvkVzL",
       }
     };
   },

@@ -18,9 +18,12 @@ export default {
   data() {
     return {
       links: {
-"2023-12-14": "https://v.douyu.com/show/Qyz171DY6RJvBJj9",
-"2023-12-16": "https://v.douyu.com/show/a2JEMJn8RDkMNxml",
-"2023-12-24": "https://v.douyu.com/show/yVY8WwdeKwVvLOz9",
+"2024-01-10": "https://v.douyu.com/show/X3JzMaQPa6VMPQro",
+"2024-01-12": "https://v.douyu.com/show/8KxjMdGmjOg7VLwb",
+"2024-01-13": "https://v.douyu.com/show/LDBbMAN6K0EWyJRP",
+"2024-01-14": "https://v.douyu.com/show/JmbBMkg3kXNM40XA",
+"2024-01-16": "https://v.douyu.com/show/DrwnvzgQLPn7PNaX",
+"2024-01-17[结局]": "https://v.douyu.com/show/DrwnvzgQrAO7PNaX",
       }
     };
   },

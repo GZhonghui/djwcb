@@ -18,8 +18,17 @@ export default {
   data() {
     return {
       links: {
-"2023-01-24": "https://v.douyu.com/show/Qyz171Z2zpbMBJj9",
-"2023-02-21[水友赛]": "https://v.douyu.com/show/XqeO74A09ayMxywG",
+"2023-01-28": "https://v.douyu.com/show/8pa9v5PmNyqWVrqA",
+"2023-01-30": "https://v.douyu.com/show/XqeO74AR02nMxywG",
+"2023-02-01": "https://v.douyu.com/show/jwzOvpGDoxDWZVRm",
+"2023-02-03": "https://v.douyu.com/show/aRbBv3PyA6m76PYV",
+"2023-02-04": "https://v.douyu.com/show/X3JzMaOAzDGvPQro",
+"2023-02-05": "https://v.douyu.com/show/3rob7jOAeZbMgkZl",
+"2023-02-07": "https://v.douyu.com/show/DrwnvzZVKYovPNaX",
+"2023-02-08": "https://v.douyu.com/show/6Aw87OOXb0j7YGkg",
+"2023-02-09": "https://v.douyu.com/show/2Bj8vGEYPnQMObnd",
+"2023-02-12": "https://v.douyu.com/show/X3JzMaOp65LvPQro",
+"2023-03-02": "https://v.douyu.com/show/yVmjvBbybpdvqkNb",
       }
     };
   },

@@ -18,8 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2020-10-10": "",
-"2023-09-01": "https://v.douyu.com/show/XqeO74DVbpX7xywG",
+"2020-10-16[11-30打赢辐光]": "",
       }
     };
   },

@@ -18,8 +18,8 @@ export default {
   data() {
     return {
       links: {
-"2024-05-10": "https://v.douyu.com/show/1LDR7QZxDAbMJzx8",
-"2024-05-11": "https://v.douyu.com/show/ERALvE8k98ZW1Vw0",
+"2024-06-01[水友赛]": "https://v.douyu.com/show/8pa9v5eb4ApvVrqA",
+"2024-06-02[水友赛]": "https://v.douyu.com/show/Kp1QM8YN0AkWk4bj",
       }
     };
   },

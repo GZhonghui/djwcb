@@ -18,17 +18,17 @@ export default {
   data() {
     return {
       links: {
-"2024-09-11": "https://v.douyu.com/show/0Q8mMY59VkJM49Ad",
-"2024-09-13": "https://v.douyu.com/show/GnzXvbP9bZwM462l",
-"2024-09-15": "https://v.douyu.com/show/NbwE7ZYJrRpvn5Zz",
-"2024-09-16": "https://v.douyu.com/show/worZv0YZpEG7JBk3",
-"2024-09-18": "https://v.douyu.com/show/NVm0WK4NznQvJeBP",
-"2024-09-19": "https://v.douyu.com/show/JmbBMkogRZZM40XA",
-"2024-09-20": "https://v.douyu.com/show/LDBbMAKNEnnvyJRP",
-"2024-09-21": "https://v.douyu.com/show/mPyq7ob8Ezjv1gLY",
-"2024-09-22": "https://v.douyu.com/show/8pa9v5eNmXKvVrqA",
-"2024-09-24": "https://v.douyu.com/show/n8GzMXQ8ZaxW6qyP",
-"2024-09-25": "https://v.douyu.com/show/85BAvqQ8k3KvG4Lm",
+"2024-09-27": "https://v.douyu.com/show/Yo4evyDgeDRW8L62",
+"2024-09-28": "https://v.douyu.com/show/2V0JMVQGzqb7RY5k",
+"2024-09-29": "https://v.douyu.com/show/0Q8mMY55krmM49Ad",
+"2024-10-01": "https://v.douyu.com/show/kDe0W2ggDrPvA4Bz",
+"2024-10-02": "https://v.douyu.com/show/kDe0W2ggy8ovA4Bz",
+"2024-10-04": "https://v.douyu.com/show/a2JEMJJJ4w2MNxml",
+"2024-10-05": "https://v.douyu.com/show/ZB5Kv9ggnemMa93x",
+"2024-10-06": "https://v.douyu.com/show/0Q8mMY556x8M49Ad",
+"2024-10-07": "https://v.douyu.com/show/85BAvqQQeXwvG4Lm",
+"2024-10-09": "https://v.douyu.com/show/Yo4evyDD30NW8L62",
+"2024-10-10": "https://v.douyu.com/show/jNBdvnbbnyPvE2yw",
       }
     };
   },

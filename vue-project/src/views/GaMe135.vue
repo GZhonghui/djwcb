@@ -18,12 +18,13 @@ export default {
   data() {
     return {
       links: {
-"2024-01-27": "https://v.douyu.com/show/r90XWgjyERNMgk25",
-"2024-01-28": "https://v.douyu.com/show/85BAvq8yAmKWG4Lm",
-"2024-01-29": "https://v.douyu.com/show/0Q8mMYYOPL5M49Ad",
-"2024-01-30": "https://v.douyu.com/show/a2JEMJnYjzZMNxml",
-"2024-01-31": "https://v.douyu.com/show/Bjq4Melb0gA75Ea8",
-"2024-02-02": "https://v.douyu.com/show/mPyq7o80rPQM1gLY",
+"2024-02-04": "https://v.douyu.com/show/yVY8WwdzNyVvLOz9",
+"2024-03-22": "https://v.douyu.com/show/8pa9v5NGDpp7VrqA",
+"2024-03-25": "https://v.douyu.com/show/a2JEMJnzb8oMNxml",
+"2024-03-27": "https://v.douyu.com/show/DO84vr8qaLlMedGr",
+"2024-04-01": "https://v.douyu.com/show/Kg1VWR8rgJm7GbNA",
+"2024-04-02": "https://v.douyu.com/show/aRbBv3Ama5XM6PYV",
+"2024-04-03": "https://v.douyu.com/show/qJgOWxgpoVeMkVzL",
       }
     };
   },

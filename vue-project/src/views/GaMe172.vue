@@ -18,12 +18,17 @@ export default {
   data() {
     return {
       links: {
-"2024-08-20[发售日放羊]": "https://v.douyu.com/show/yVmjvBgDkgz7qkNb",
-"2024-08-21[放羊]": "https://v.douyu.com/show/6Aw87OQ6NdxWYGkg",
-"2024-08-22": "https://v.douyu.com/show/X3JzMalVaXA7PQro",
-"2024-08-23": "https://v.douyu.com/show/DrwnvzDKyaKMPNaX",
-"2024-08-24": "https://v.douyu.com/show/6Aw87OQZl1jWYGkg",
-"2024-08-25": "https://v.douyu.com/show/8KxjMdlkGyYMVLwb",
+"2024-09-11": "https://v.douyu.com/show/0Q8mMY59VkJM49Ad",
+"2024-09-13": "https://v.douyu.com/show/GnzXvbP9bZwM462l",
+"2024-09-15": "https://v.douyu.com/show/NbwE7ZYJrRpvn5Zz",
+"2024-09-16": "https://v.douyu.com/show/worZv0YZpEG7JBk3",
+"2024-09-18": "https://v.douyu.com/show/NVm0WK4NznQvJeBP",
+"2024-09-19": "https://v.douyu.com/show/JmbBMkogRZZM40XA",
+"2024-09-20": "https://v.douyu.com/show/LDBbMAKNEnnvyJRP",
+"2024-09-21": "https://v.douyu.com/show/mPyq7ob8Ezjv1gLY",
+"2024-09-22": "https://v.douyu.com/show/8pa9v5eNmXKvVrqA",
+"2024-09-24": "https://v.douyu.com/show/n8GzMXQ8ZaxW6qyP",
+"2024-09-25": "https://v.douyu.com/show/85BAvqQ8k3KvG4Lm",
       }
     };
   },

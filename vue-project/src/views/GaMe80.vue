@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2023-01-09[舞台剧（直播间当家）]": "https://v.douyu.com/show/4xq3WDpmwErWLGNz",
+"2023-01-12": "https://v.douyu.com/show/brN0Mm4E8E37pyxA",
       }
     };
   },

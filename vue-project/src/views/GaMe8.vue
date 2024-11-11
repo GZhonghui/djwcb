@@ -19,6 +19,7 @@ export default {
     return {
       links: {
 "2019-11-16": "https://v.douyu.com/show/85BAvqxRzbKWG4Lm",
+"2019-11-06[第一次]": "",
 "2023-03-15": "https://v.douyu.com/show/2Bj8vGE2rdLMObnd",
 "2023-03-17": "https://v.douyu.com/show/aRbBv3PLEVg76PYV",
 "2023-03-21": "https://v.douyu.com/show/85BAvqKNb3BMG4Lm",
