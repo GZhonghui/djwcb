@@ -77,7 +77,7 @@ def main():
   for game in data.keys():
     with open(f'./vue-project/src/views/GaMe{game_to_id[game]}.vue', 'w', encoding='utf-8') as file:
       file.write(write_code(views_vue_code,3,22))
-      file.write(f'"回到首页": "/",\n')
+      # file.write(f'"回到首页": "/",\n')
       for date in data[game]:
         file.write(f'"{date[0]}": "{date[1]}",\n')
       file.write(write_code(views_vue_code,24,77))
