@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     go(link) {
-      if (link.startsWith('/')) {
+      if (link) if (link.startsWith('/')) {
         this.$router.push(link);
       } else {
         window.open(link, '_blank'); // window.location.href = link;
