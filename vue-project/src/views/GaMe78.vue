@@ -18,14 +18,13 @@ export default {
   data() {
     return {
       links: {
-"回到首页": "/",
 "2023-08-05": "https://v.douyu.com/show/r90XWgjR4BKMgk25",
       }
     };
   },
   methods: {
     go(link) {
-      if (link.startsWith('/')) {
+      if (link) if (link.startsWith('/')) {
         this.$router.push(link);
       } else {
         window.open(link, '_blank'); // window.location.href = link;

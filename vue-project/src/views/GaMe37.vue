@@ -18,7 +18,6 @@ export default {
   data() {
     return {
       links: {
-"回到首页": "/",
 "2023-01-04": "https://v.douyu.com/show/kDe0W2mz68XMA4Bz",
 "2023-01-07": "https://v.douyu.com/show/GnzXvb9d5KbW462l",
 "2023-01-18": "https://v.douyu.com/show/yVmjvBbRxwdvqkNb",
@@ -37,12 +36,14 @@ export default {
 "2023-10-20": "https://v.douyu.com/show/jwzOvpxDwzEvZVRm",
 "2023-10-24": "https://v.douyu.com/show/2V0JMVGkknAWRY5k",
 "2023-10-25": "https://v.douyu.com/show/ZB5Kv9Y0R6bva93x",
+"2021-09-22": "",
+"2022-12-09": "",
       }
     };
   },
   methods: {
     go(link) {
-      if (link.startsWith('/')) {
+      if (link) if (link.startsWith('/')) {
         this.$router.push(link);
       } else {
         window.open(link, '_blank'); // window.location.href = link;

@@ -18,7 +18,6 @@ export default {
   data() {
     return {
       links: {
-"回到首页": "/",
 "2019-05-21[拍婚纱照]": "https://v.douyu.com/show/yVY8WwAnBYA7LOz9",
 "2022-10-03": "https://v.douyu.com/show/0zZVvPA42KE7O4E2",
 "2022-11-23": "https://v.douyu.com/show/DrwnvzZP62nvPNaX",
@@ -41,7 +40,7 @@ export default {
   },
   methods: {
     go(link) {
-      if (link.startsWith('/')) {
+      if (link) if (link.startsWith('/')) {
         this.$router.push(link);
       } else {
         window.open(link, '_blank'); // window.location.href = link;

@@ -18,7 +18,6 @@ export default {
   data() {
     return {
       links: {
-"回到首页": "/",
 "2024-04-17": "https://v.douyu.com/show/X3JzMaQbk31MPQro",
 "2024-04-19[周末安排小黑屋大乱斗]": "https://v.douyu.com/show/worZv0ZrXJoMJBk3",
       }
@@ -26,7 +25,7 @@ export default {
   },
   methods: {
     go(link) {
-      if (link.startsWith('/')) {
+      if (link) if (link.startsWith('/')) {
         this.$router.push(link);
       } else {
         window.open(link, '_blank'); // window.location.href = link;

@@ -18,7 +18,6 @@ export default {
   data() {
     return {
       links: {
-"回到首页": "/",
 "2023-04-14": "https://v.douyu.com/show/jwzOvpGK3nQWZVRm",
 "2023-04-15": "https://v.douyu.com/show/3rob7jOX3ykMgkZl",
 "2023-04-21": "https://v.douyu.com/show/Kg1VWR4nwxL7GbNA",
@@ -37,7 +36,7 @@ export default {
   },
   methods: {
     go(link) {
-      if (link.startsWith('/')) {
+      if (link) if (link.startsWith('/')) {
         this.$router.push(link);
       } else {
         window.open(link, '_blank'); // window.location.href = link;

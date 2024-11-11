@@ -146,6 +146,46 @@ import GaMe143 from '../views/GaMe143.vue';
 import GaMe144 from '../views/GaMe144.vue';
 import GaMe145 from '../views/GaMe145.vue';
 import GaMe146 from '../views/GaMe146.vue';
+import GaMe147 from '../views/GaMe147.vue';
+import GaMe148 from '../views/GaMe148.vue';
+import GaMe149 from '../views/GaMe149.vue';
+import GaMe150 from '../views/GaMe150.vue';
+import GaMe151 from '../views/GaMe151.vue';
+import GaMe152 from '../views/GaMe152.vue';
+import GaMe153 from '../views/GaMe153.vue';
+import GaMe154 from '../views/GaMe154.vue';
+import GaMe155 from '../views/GaMe155.vue';
+import GaMe156 from '../views/GaMe156.vue';
+import GaMe157 from '../views/GaMe157.vue';
+import GaMe158 from '../views/GaMe158.vue';
+import GaMe159 from '../views/GaMe159.vue';
+import GaMe160 from '../views/GaMe160.vue';
+import GaMe161 from '../views/GaMe161.vue';
+import GaMe162 from '../views/GaMe162.vue';
+import GaMe163 from '../views/GaMe163.vue';
+import GaMe164 from '../views/GaMe164.vue';
+import GaMe165 from '../views/GaMe165.vue';
+import GaMe166 from '../views/GaMe166.vue';
+import GaMe167 from '../views/GaMe167.vue';
+import GaMe168 from '../views/GaMe168.vue';
+import GaMe169 from '../views/GaMe169.vue';
+import GaMe170 from '../views/GaMe170.vue';
+import GaMe171 from '../views/GaMe171.vue';
+import GaMe172 from '../views/GaMe172.vue';
+import GaMe173 from '../views/GaMe173.vue';
+import GaMe174 from '../views/GaMe174.vue';
+import GaMe175 from '../views/GaMe175.vue';
+import GaMe176 from '../views/GaMe176.vue';
+import GaMe177 from '../views/GaMe177.vue';
+import GaMe178 from '../views/GaMe178.vue';
+import GaMe179 from '../views/GaMe179.vue';
+import GaMe180 from '../views/GaMe180.vue';
+import GaMe181 from '../views/GaMe181.vue';
+import GaMe182 from '../views/GaMe182.vue';
+import GaMe183 from '../views/GaMe183.vue';
+import GaMe184 from '../views/GaMe184.vue';
+import GaMe185 from '../views/GaMe185.vue';
+import GaMe186 from '../views/GaMe186.vue';
 const routes = [
   {
     path: '/',
@@ -298,6 +338,46 @@ const routes = [
 {path: '/game144', name: 'GaMe144', component: GaMe144},
 {path: '/game145', name: 'GaMe145', component: GaMe145},
 {path: '/game146', name: 'GaMe146', component: GaMe146},
+{path: '/game147', name: 'GaMe147', component: GaMe147},
+{path: '/game148', name: 'GaMe148', component: GaMe148},
+{path: '/game149', name: 'GaMe149', component: GaMe149},
+{path: '/game150', name: 'GaMe150', component: GaMe150},
+{path: '/game151', name: 'GaMe151', component: GaMe151},
+{path: '/game152', name: 'GaMe152', component: GaMe152},
+{path: '/game153', name: 'GaMe153', component: GaMe153},
+{path: '/game154', name: 'GaMe154', component: GaMe154},
+{path: '/game155', name: 'GaMe155', component: GaMe155},
+{path: '/game156', name: 'GaMe156', component: GaMe156},
+{path: '/game157', name: 'GaMe157', component: GaMe157},
+{path: '/game158', name: 'GaMe158', component: GaMe158},
+{path: '/game159', name: 'GaMe159', component: GaMe159},
+{path: '/game160', name: 'GaMe160', component: GaMe160},
+{path: '/game161', name: 'GaMe161', component: GaMe161},
+{path: '/game162', name: 'GaMe162', component: GaMe162},
+{path: '/game163', name: 'GaMe163', component: GaMe163},
+{path: '/game164', name: 'GaMe164', component: GaMe164},
+{path: '/game165', name: 'GaMe165', component: GaMe165},
+{path: '/game166', name: 'GaMe166', component: GaMe166},
+{path: '/game167', name: 'GaMe167', component: GaMe167},
+{path: '/game168', name: 'GaMe168', component: GaMe168},
+{path: '/game169', name: 'GaMe169', component: GaMe169},
+{path: '/game170', name: 'GaMe170', component: GaMe170},
+{path: '/game171', name: 'GaMe171', component: GaMe171},
+{path: '/game172', name: 'GaMe172', component: GaMe172},
+{path: '/game173', name: 'GaMe173', component: GaMe173},
+{path: '/game174', name: 'GaMe174', component: GaMe174},
+{path: '/game175', name: 'GaMe175', component: GaMe175},
+{path: '/game176', name: 'GaMe176', component: GaMe176},
+{path: '/game177', name: 'GaMe177', component: GaMe177},
+{path: '/game178', name: 'GaMe178', component: GaMe178},
+{path: '/game179', name: 'GaMe179', component: GaMe179},
+{path: '/game180', name: 'GaMe180', component: GaMe180},
+{path: '/game181', name: 'GaMe181', component: GaMe181},
+{path: '/game182', name: 'GaMe182', component: GaMe182},
+{path: '/game183', name: 'GaMe183', component: GaMe183},
+{path: '/game184', name: 'GaMe184', component: GaMe184},
+{path: '/game185', name: 'GaMe185', component: GaMe185},
+{path: '/game186', name: 'GaMe186', component: GaMe186},
 ];
 
 const router = createRouter({
