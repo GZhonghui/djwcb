@@ -18,12 +18,12 @@ export default {
   data() {
     return {
       links: {
-"2024-08-20[发售日放羊]": "https://v.douyu.com/show/yVmjvBgDkgz7qkNb",
-"2024-08-21[放羊]": "https://v.douyu.com/show/6Aw87OQ6NdxWYGkg",
-"2024-08-22": "https://v.douyu.com/show/X3JzMalVaXA7PQro",
-"2024-08-23": "https://v.douyu.com/show/DrwnvzDKyaKMPNaX",
-"2024-08-24": "https://v.douyu.com/show/6Aw87OQZl1jWYGkg",
-"2024-08-25": "https://v.douyu.com/show/8KxjMdlkGyYMVLwb",
+"2024-01-27": "https://v.douyu.com/show/r90XWgjyERNMgk25",
+"2024-01-28": "https://v.douyu.com/show/85BAvq8yAmKWG4Lm",
+"2024-01-29": "https://v.douyu.com/show/0Q8mMYYOPL5M49Ad",
+"2024-01-30": "https://v.douyu.com/show/a2JEMJnYjzZMNxml",
+"2024-01-31": "https://v.douyu.com/show/Bjq4Melb0gA75Ea8",
+"2024-02-02": "https://v.douyu.com/show/mPyq7o80rPQM1gLY",
       }
     };
   },

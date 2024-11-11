@@ -18,10 +18,9 @@ export default {
   data() {
     return {
       links: {
-"2024-07-09": "https://v.douyu.com/show/2Bj8vG3XmeVvObnd",
-"2024-07-10": "https://v.douyu.com/show/wLjGvLr5qxRMmO90",
-"2024-07-12": "https://v.douyu.com/show/mPyq7obQD5Qv1gLY",
-"2024-07-13": "https://v.douyu.com/show/85BAvqQ9noXvG4Lm",
+"2023-12-05": "https://v.douyu.com/show/jwzOvpx85GqvZVRm",
+"2023-12-06": "https://v.douyu.com/show/6Aw87O8edOjMYGkg",
+"2023-12-08": "https://v.douyu.com/show/Kg1VWR8d5Xo7GbNA",
       }
     };
   },

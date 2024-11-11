@@ -18,7 +18,8 @@ export default {
   data() {
     return {
       links: {
-"2021-01-16": "",
+"2024-07-06": "https://v.douyu.com/show/yVmjvBg4GBz7qkNb",
+"2024-07-07": "https://v.douyu.com/show/Yo4evyDoPgnW8L62",
       }
     };
   },

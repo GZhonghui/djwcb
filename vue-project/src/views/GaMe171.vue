@@ -18,7 +18,9 @@ export default {
   data() {
     return {
       links: {
-"2021-06-28[7-9完结]": "",
+"2024-08-16": "https://v.douyu.com/show/a2JEMJJGrQ0MNxml",
+"2024-08-17": "https://v.douyu.com/show/4xq3WDzwqwN7LGNz",
+"2024-08-18": "https://v.douyu.com/show/DO84vrRrggGvedGr",
       }
     };
   },

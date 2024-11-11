@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2023-01-12": "https://v.douyu.com/show/brN0Mm4E8E37pyxA",
+"2021-02-07[一天就玩完了]": "",
       }
     };
   },

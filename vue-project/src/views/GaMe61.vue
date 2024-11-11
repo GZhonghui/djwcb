@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2023-05-05": "https://v.douyu.com/show/ZB5Kv9eNo5eva93x",
+"2022-09-06": "",
       }
     };
   },

@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2023-01-09[舞台剧（直播间当家）]": "https://v.douyu.com/show/4xq3WDpmwErWLGNz",
+"2020-12-19[交替至2021-1-3]": "",
       }
     };
   },

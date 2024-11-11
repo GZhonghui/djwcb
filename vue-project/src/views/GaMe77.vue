@@ -18,8 +18,13 @@ export default {
   data() {
     return {
       links: {
-"2023-08-03": "https://v.douyu.com/show/kDe0W2Dkk387A4Bz",
-"2023-08-04": "https://v.douyu.com/show/4xq3WDBAmmg7LGNz",
+"2022-11-02": "https://v.douyu.com/show/Yo4evyxmlX6W8L62",
+"2022-11-05": "https://v.douyu.com/show/qJgOWxZAAnX7kVzL",
+"2022-11-06": "https://v.douyu.com/show/0zZVvP9m1xq7O4E2",
+"2022-11-07": "https://v.douyu.com/show/wLjGvLqp4P27mO90",
+"2022-11-08": "https://v.douyu.com/show/0Q8mMY90O1LM49Ad",
+"2022-11-11": "https://v.douyu.com/show/Bjq4Mer4VyzW5Ea8",
+"2022-11-12": "https://v.douyu.com/show/0zZVvP9RB327O4E2",
       }
     };
   },

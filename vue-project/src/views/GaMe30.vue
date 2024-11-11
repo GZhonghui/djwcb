@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2022-11-01": "https://v.douyu.com/show/DrwnvzZyP4GvPNaX",
+"2020-07-03[13日完结]": "",
       }
     };
   },

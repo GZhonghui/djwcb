@@ -18,7 +18,10 @@ export default {
   data() {
     return {
       links: {
-"2023-09-30": "https://v.douyu.com/show/Yo4evygBO56M8L62",
+"2023-01-16": "https://v.douyu.com/show/yVmjvBbmy4zvqkNb",
+"2023-01-20": "https://v.douyu.com/show/qJgOWxZ0BVn7kVzL",
+"2023-02-21[水友活动]": "https://v.douyu.com/show/XqeO74A09ayMxywG",
+"2023-05-09[团建]": "https://v.douyu.com/show/8KxjMd4NzAmMVLwb",
       }
     };
   },

@@ -18,7 +18,9 @@ export default {
   data() {
     return {
       links: {
-"2020-04-07[玩了一天，之前休整了好久]": "",
+"2024-05-07": "https://v.douyu.com/show/8pa9v5NgdA17VrqA",
+"2024-05-08": "https://v.douyu.com/show/Kg1VWR8ZrwN7GbNA",
+"2024-05-12": "https://v.douyu.com/show/2V0JMVGzV35WRY5k",
       }
     };
   },

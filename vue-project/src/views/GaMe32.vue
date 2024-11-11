@@ -18,13 +18,13 @@ export default {
   data() {
     return {
       links: {
-"2022-11-02": "https://v.douyu.com/show/Yo4evyxmlX6W8L62",
-"2022-11-05": "https://v.douyu.com/show/qJgOWxZAAnX7kVzL",
-"2022-11-06": "https://v.douyu.com/show/0zZVvP9m1xq7O4E2",
-"2022-11-07": "https://v.douyu.com/show/wLjGvLqp4P27mO90",
-"2022-11-08": "https://v.douyu.com/show/0Q8mMY90O1LM49Ad",
-"2022-11-11": "https://v.douyu.com/show/Bjq4Mer4VyzW5Ea8",
-"2022-11-12": "https://v.douyu.com/show/0zZVvP9RB327O4E2",
+"2020-08-27[断了一截，9-16续上，和怪猎一起]": "",
+"2022-07-01": "https://v.douyu.com/show/Kg1VWRB2njQWGbNA",
+"2022-07-08": "https://v.douyu.com/show/DrwnvzKq8wQ7PNaX",
+"2022-07-09": "https://v.douyu.com/show/ZB5Kv9o0O38Ma93x",
+"2022-07-10": "https://v.douyu.com/show/0Q8mMYGogoNv49Ad",
+"2022-07-12": "https://v.douyu.com/show/DO84vr92PrQWedGr",
+"2022-07-13": "https://v.douyu.com/show/qJgOWxmEjZRvkVzL",
       }
     };
   },

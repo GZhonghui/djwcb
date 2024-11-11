@@ -18,11 +18,15 @@ export default {
   data() {
     return {
       links: {
-"2022-10-01": "https://v.douyu.com/show/wLjGvLZ3bNxMmO90",
-"2022-10-04": "https://v.douyu.com/show/ZB5Kv9o1Xa2Ma93x",
-"2022-10-06": "https://v.douyu.com/show/NbwE7Z2bXDk7n5Zz",
-"2022-10-09": "https://v.douyu.com/show/LDBbMA8RN9g7yJRP",
-"2022-10-10": "https://v.douyu.com/show/JmbBMklEw6yW40XA",
+"2020-03-15[就玩了一天]": "",
+"2020-12-02[又是一天]": "",
+"2024-04-24": "https://v.douyu.com/show/2V0JMVG9gDDWRY5k",
+"2024-04-26": "https://v.douyu.com/show/DO84vr8xx90MedGr",
+"2024-04-27": "https://v.douyu.com/show/2V0JMVGEKBkWRY5k",
+"2024-04-28": "https://v.douyu.com/show/3rob7jQ6Kb1vgkZl",
+"2024-04-30[月末放羊]": "https://v.douyu.com/show/n8GzMX8Y161M6qyP",
+"2024-05-04": "https://v.douyu.com/show/6Aw87O8PBgxMYGkg",
+"2024-05-05": "https://v.douyu.com/show/worZv0ZjJOpMJBk3",
       }
     };
   },

@@ -183,9 +183,6 @@ import GaMe180 from '../views/GaMe180.vue';
 import GaMe181 from '../views/GaMe181.vue';
 import GaMe182 from '../views/GaMe182.vue';
 import GaMe183 from '../views/GaMe183.vue';
-import GaMe184 from '../views/GaMe184.vue';
-import GaMe185 from '../views/GaMe185.vue';
-import GaMe186 from '../views/GaMe186.vue';
 const routes = [
   {
     path: '/',
@@ -375,9 +372,6 @@ const routes = [
 {path: '/game181', name: 'GaMe181', component: GaMe181},
 {path: '/game182', name: 'GaMe182', component: GaMe182},
 {path: '/game183', name: 'GaMe183', component: GaMe183},
-{path: '/game184', name: 'GaMe184', component: GaMe184},
-{path: '/game185', name: 'GaMe185', component: GaMe185},
-{path: '/game186', name: 'GaMe186', component: GaMe186},
 ];
 
 const router = createRouter({

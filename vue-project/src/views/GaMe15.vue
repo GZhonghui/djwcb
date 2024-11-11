@@ -19,6 +19,9 @@ export default {
     return {
       links: {
 "2020-05-16[搞笑视频 + KTV]": "https://v.douyu.com/show/mPyq7o65ZwYv1gLY",
+"2023-08-06": "https://v.douyu.com/show/6Aw87O8gr8xMYGkg",
+"2023-08-13": "https://v.douyu.com/show/EO0XvNb6kDjvDrBd",
+"2023-09-19": "https://v.douyu.com/show/jNBdvn8xRrNME2yw",
       }
     };
   },

@@ -21,6 +21,7 @@ export default {
 "2020-01-26": "https://v.douyu.com/show/85BAvqx5kPyWG4Lm",
 "2020-02-01": "https://v.douyu.com/show/3rob7j2r9Zp7gkZl",
 "2020-03-09": "https://v.douyu.com/show/brN0MmO6akbvpyxA",
+"2020-01-25[第一次]": "",
       }
     };
   },

@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2022-11-02": "https://v.douyu.com/show/Yo4evyxmlX6W8L62",
+"2020-08-13[到22日，被喷舞台剧，似乎没玩完]": "",
       }
     };
   },

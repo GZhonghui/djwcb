@@ -18,8 +18,8 @@ export default {
   data() {
     return {
       links: {
-"2024-04-17": "https://v.douyu.com/show/X3JzMaQbk31MPQro",
-"2024-04-19[周末安排小黑屋大乱斗]": "https://v.douyu.com/show/worZv0ZrXJoMJBk3",
+"2023-07-28": "https://v.douyu.com/show/EO0XvNbwqRavDrBd",
+"2023-07-29": "https://v.douyu.com/show/Qyz171DlYm0vBJj9",
       }
     };
   },

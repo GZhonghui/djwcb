@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2020-12-10[交替至2021-1-3]": "",
+"2024-07-03": "https://v.douyu.com/show/qJgOWx52dqKvkVzL",
       }
     };
   },

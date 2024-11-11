@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2019-11-06[第一次]": "",
+"2024-03-18": "https://v.douyu.com/show/X3JzMaQB6g1MPQro",
       }
     };
   },

@@ -18,7 +18,8 @@ export default {
   data() {
     return {
       links: {
-"2022-06-09[没玩完]": "",
+"2024-10-11": "https://v.douyu.com/show/Kp1QM8YY03RWk4bj",
+"2024-10-12": "https://v.douyu.com/show/DO84vrRG6jwvedGr",
       }
     };
   },

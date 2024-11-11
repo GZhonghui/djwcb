@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2023-07-08[教育水平暴露 + 有狗贼 & 神棍]": "https://v.douyu.com/show/X3JzMaQknqGMPQro",
+"2022-09-22[浅尝辄止]": "https://v.douyu.com/show/LDBbMA8demq7yJRP",
       }
     };
   },

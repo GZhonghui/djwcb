@@ -18,13 +18,15 @@ export default {
   data() {
     return {
       links: {
-"2023-07-07": "https://v.douyu.com/show/NVm0WKNZ1QQMJeBP",
-"2023-07-08": "https://v.douyu.com/show/X3JzMaQknqGMPQro",
-"2023-07-09": "https://v.douyu.com/show/6Aw87O8ZYO4MYGkg",
-"2023-07-13": "https://v.douyu.com/show/2V0JMVGVjeaWRY5k",
-"2023-07-15": "https://v.douyu.com/show/DO84vr8K1zkMedGr",
-"2023-07-19": "https://v.douyu.com/show/wLjGvLxxq2EvmO90",
-"2023-07-20": "https://v.douyu.com/show/r90XWgjjGrDMgk25",
+"2022-07-21": "https://v.douyu.com/show/0Q8mMYGXEzqv49Ad",
+"2022-07-22": "https://v.douyu.com/show/2Bj8vGNY083WObnd",
+"2022-07-23": "https://v.douyu.com/show/X3JzMakqwglvPQro",
+"2022-07-24": "https://v.douyu.com/show/ERALvElEGbnW1Vw0",
+"2023-01-23[关服 + COS]": "https://v.douyu.com/show/1LDR7QJPz1mMJzx8",
+"2023-03-23[24小时竞技场]": "https://v.douyu.com/show/kDe0W2mxek8MA4Bz",
+"2023-03-24[24小时竞技场]": "https://v.douyu.com/show/XqeO74A1xGZMxywG",
+"2023-03-25[24小时竞技场]": "https://v.douyu.com/show/jwzOvpGo3pjWZVRm",
+"2023-03-26[24小时竞技场]": "https://v.douyu.com/show/0Q8mMY9LRAjM49Ad",
       }
     };
   },

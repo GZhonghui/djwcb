@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2023-01-23": "https://v.douyu.com/show/1LDR7QJPz1mMJzx8",
+"2021-04-29[到5-4因病中断，6-9重启，6-26结束]": "",
       }
     };
   },

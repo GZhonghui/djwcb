@@ -18,8 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2023-01-24": "https://v.douyu.com/show/Qyz171Z2zpbMBJj9",
-"2023-02-21[水友赛]": "https://v.douyu.com/show/XqeO74A09ayMxywG",
+"2021-06-28[7-9完结]": "",
       }
     };
   },

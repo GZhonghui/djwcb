@@ -18,9 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2023-05-25[伏笔换俯卧撑]": "https://v.douyu.com/show/Aox276Dg5pKWVz8Z",
-"2023-05-26[伏笔换俯卧撑]": "https://v.douyu.com/show/8pa9v5NOx9D7VrqA",
-"2023-05-27": "https://v.douyu.com/show/yVmjvBpZ1KdMqkNb",
+"2022-10-01": "",
       }
     };
   },
