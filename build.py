@@ -37,7 +37,7 @@ def write_code(code: list, begin_line: int, end_line: int) -> str:
   return result
 
 def read_data() -> list:
-  data, game_to_id, id_to_game, game_id = dict(), dict(), dict(), 0
+  data, game_to_id, id_to_game, game_id, contain_dates = dict(), dict(), dict(), 0, dict()
   data_files = sorted([i for i in os.listdir('./data/') if i.split('.')[-1] == 'json'])
   for file_name in data_files:
     with open(os.path.join('./data/',file_name), 'r', encoding='utf-8') as file:
@@ -47,10 +47,13 @@ def read_data() -> list:
           for game_data in json_data[date]['games']:
             game = game_data if isinstance(game_data, str) else game_data[0]
             if game not in data.keys():
-              data[game] = list()
+              data[game], contain_dates[game] = list(), dict()
               game_id = game_id + 1
               game_to_id[game],id_to_game[game_id] = game_id,game
-            data[game].append([date if isinstance(game_data, str) else f'{date}[{game_data[1]}]',json_data[date]['url']])
+            complate_date = date if isinstance(game_data, str) else f'{date}[{game_data[1]}]'
+            if complate_date not in contain_dates[game].keys():
+              data[game].append([complate_date,json_data[date]['url']])
+              contain_dates[game][complate_date] = 1
   return data, game_to_id, id_to_game
 
 def main():
