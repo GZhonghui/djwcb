@@ -180,6 +180,15 @@ import GaMe177 from '../views/GaMe177.vue';
 import GaMe178 from '../views/GaMe178.vue';
 import GaMe179 from '../views/GaMe179.vue';
 import GaMe180 from '../views/GaMe180.vue';
+import GaMe181 from '../views/GaMe181.vue';
+import GaMe182 from '../views/GaMe182.vue';
+import GaMe183 from '../views/GaMe183.vue';
+import GaMe184 from '../views/GaMe184.vue';
+import GaMe185 from '../views/GaMe185.vue';
+import GaMe186 from '../views/GaMe186.vue';
+import GaMe187 from '../views/GaMe187.vue';
+import GaMe188 from '../views/GaMe188.vue';
+import GaMe189 from '../views/GaMe189.vue';
 const routes = [
   {
     path: '/',
@@ -366,6 +375,15 @@ const routes = [
 {path: '/game178', name: 'GaMe178', component: GaMe178},
 {path: '/game179', name: 'GaMe179', component: GaMe179},
 {path: '/game180', name: 'GaMe180', component: GaMe180},
+{path: '/game181', name: 'GaMe181', component: GaMe181},
+{path: '/game182', name: 'GaMe182', component: GaMe182},
+{path: '/game183', name: 'GaMe183', component: GaMe183},
+{path: '/game184', name: 'GaMe184', component: GaMe184},
+{path: '/game185', name: 'GaMe185', component: GaMe185},
+{path: '/game186', name: 'GaMe186', component: GaMe186},
+{path: '/game187', name: 'GaMe187', component: GaMe187},
+{path: '/game188', name: 'GaMe188', component: GaMe188},
+{path: '/game189', name: 'GaMe189', component: GaMe189},
 ];
 
 const router = createRouter({

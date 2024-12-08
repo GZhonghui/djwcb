@@ -18,8 +18,10 @@ export default {
   data() {
     return {
       links: {
-"2024-11-06": "https://v.douyu.com/show/Kg1VWRQKqXrMGbNA",
-"2024-11-08": "https://v.douyu.com/show/8pa9v5exE1KvVrqA",
+"2024-11-12": "https://v.douyu.com/show/EO0XvNwgleX7DrBd",
+"2024-11-13": "https://v.douyu.com/show/2V0JMVQAw157RY5k",
+"2024-11-15": "https://v.douyu.com/show/3rob7joGnmbMgkZl",
+"2024-11-16[全解锁存档]": "https://v.douyu.com/show/Bjq4MexaQyq75Ea8",
       }
     };
   },

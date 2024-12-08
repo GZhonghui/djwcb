@@ -18,8 +18,10 @@ export default {
   data() {
     return {
       links: {
-"2024-11-06": "https://v.douyu.com/show/Kg1VWRQKqXrMGbNA",
-"2024-11-08": "https://v.douyu.com/show/8pa9v5exE1KvVrqA",
+"2024-11-29[月末放羊]": "https://v.douyu.com/show/4xq3WDzEaER7LGNz",
+"2024-11-30": "https://v.douyu.com/show/a2JEMJJOQoZMNxml",
+"2024-12-01": "https://v.douyu.com/show/worZv0YXxNp7JBk3",
+"2024-12-03": "https://v.douyu.com/show/NVm0WK49wrQvJeBP",
       }
     };
   },
