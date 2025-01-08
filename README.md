@@ -23,4 +23,6 @@ python build.py # 生成 Vue 代码
 # 将配置文件 "vue-project/vue.config.js" 删除 改为使用 "vue-project/vue.config.js.vps"
 
 (vue-project) npm run build # 构建 Vue 项目
+
+# 更新内容：git pull 之后重新构建 Vue 项目即可
 ```
