@@ -1,389 +1,395 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AllGames from '../views/AllGames.vue';
-import GaMe1 from '../views/GaMe1.vue';
-import GaMe2 from '../views/GaMe2.vue';
-import GaMe3 from '../views/GaMe3.vue';
-import GaMe4 from '../views/GaMe4.vue';
-import GaMe5 from '../views/GaMe5.vue';
-import GaMe6 from '../views/GaMe6.vue';
-import GaMe7 from '../views/GaMe7.vue';
-import GaMe8 from '../views/GaMe8.vue';
-import GaMe9 from '../views/GaMe9.vue';
-import GaMe10 from '../views/GaMe10.vue';
-import GaMe11 from '../views/GaMe11.vue';
-import GaMe12 from '../views/GaMe12.vue';
-import GaMe13 from '../views/GaMe13.vue';
-import GaMe14 from '../views/GaMe14.vue';
-import GaMe15 from '../views/GaMe15.vue';
-import GaMe16 from '../views/GaMe16.vue';
-import GaMe17 from '../views/GaMe17.vue';
-import GaMe18 from '../views/GaMe18.vue';
-import GaMe19 from '../views/GaMe19.vue';
-import GaMe20 from '../views/GaMe20.vue';
-import GaMe21 from '../views/GaMe21.vue';
-import GaMe22 from '../views/GaMe22.vue';
-import GaMe23 from '../views/GaMe23.vue';
-import GaMe24 from '../views/GaMe24.vue';
-import GaMe25 from '../views/GaMe25.vue';
-import GaMe26 from '../views/GaMe26.vue';
-import GaMe27 from '../views/GaMe27.vue';
-import GaMe28 from '../views/GaMe28.vue';
-import GaMe29 from '../views/GaMe29.vue';
-import GaMe30 from '../views/GaMe30.vue';
-import GaMe31 from '../views/GaMe31.vue';
-import GaMe32 from '../views/GaMe32.vue';
-import GaMe33 from '../views/GaMe33.vue';
-import GaMe34 from '../views/GaMe34.vue';
-import GaMe35 from '../views/GaMe35.vue';
-import GaMe36 from '../views/GaMe36.vue';
-import GaMe37 from '../views/GaMe37.vue';
-import GaMe38 from '../views/GaMe38.vue';
-import GaMe39 from '../views/GaMe39.vue';
-import GaMe40 from '../views/GaMe40.vue';
-import GaMe41 from '../views/GaMe41.vue';
-import GaMe42 from '../views/GaMe42.vue';
-import GaMe43 from '../views/GaMe43.vue';
-import GaMe44 from '../views/GaMe44.vue';
-import GaMe45 from '../views/GaMe45.vue';
-import GaMe46 from '../views/GaMe46.vue';
-import GaMe47 from '../views/GaMe47.vue';
-import GaMe48 from '../views/GaMe48.vue';
-import GaMe49 from '../views/GaMe49.vue';
-import GaMe50 from '../views/GaMe50.vue';
-import GaMe51 from '../views/GaMe51.vue';
-import GaMe52 from '../views/GaMe52.vue';
-import GaMe53 from '../views/GaMe53.vue';
-import GaMe54 from '../views/GaMe54.vue';
-import GaMe55 from '../views/GaMe55.vue';
-import GaMe56 from '../views/GaMe56.vue';
-import GaMe57 from '../views/GaMe57.vue';
-import GaMe58 from '../views/GaMe58.vue';
-import GaMe59 from '../views/GaMe59.vue';
-import GaMe60 from '../views/GaMe60.vue';
-import GaMe61 from '../views/GaMe61.vue';
-import GaMe62 from '../views/GaMe62.vue';
-import GaMe63 from '../views/GaMe63.vue';
-import GaMe64 from '../views/GaMe64.vue';
-import GaMe65 from '../views/GaMe65.vue';
-import GaMe66 from '../views/GaMe66.vue';
-import GaMe67 from '../views/GaMe67.vue';
-import GaMe68 from '../views/GaMe68.vue';
-import GaMe69 from '../views/GaMe69.vue';
-import GaMe70 from '../views/GaMe70.vue';
-import GaMe71 from '../views/GaMe71.vue';
-import GaMe72 from '../views/GaMe72.vue';
-import GaMe73 from '../views/GaMe73.vue';
-import GaMe74 from '../views/GaMe74.vue';
-import GaMe75 from '../views/GaMe75.vue';
-import GaMe76 from '../views/GaMe76.vue';
-import GaMe77 from '../views/GaMe77.vue';
-import GaMe78 from '../views/GaMe78.vue';
-import GaMe79 from '../views/GaMe79.vue';
-import GaMe80 from '../views/GaMe80.vue';
-import GaMe81 from '../views/GaMe81.vue';
-import GaMe82 from '../views/GaMe82.vue';
-import GaMe83 from '../views/GaMe83.vue';
-import GaMe84 from '../views/GaMe84.vue';
-import GaMe85 from '../views/GaMe85.vue';
-import GaMe86 from '../views/GaMe86.vue';
-import GaMe87 from '../views/GaMe87.vue';
-import GaMe88 from '../views/GaMe88.vue';
-import GaMe89 from '../views/GaMe89.vue';
-import GaMe90 from '../views/GaMe90.vue';
-import GaMe91 from '../views/GaMe91.vue';
-import GaMe92 from '../views/GaMe92.vue';
-import GaMe93 from '../views/GaMe93.vue';
-import GaMe94 from '../views/GaMe94.vue';
-import GaMe95 from '../views/GaMe95.vue';
-import GaMe96 from '../views/GaMe96.vue';
-import GaMe97 from '../views/GaMe97.vue';
-import GaMe98 from '../views/GaMe98.vue';
-import GaMe99 from '../views/GaMe99.vue';
-import GaMe100 from '../views/GaMe100.vue';
-import GaMe101 from '../views/GaMe101.vue';
-import GaMe102 from '../views/GaMe102.vue';
-import GaMe103 from '../views/GaMe103.vue';
-import GaMe104 from '../views/GaMe104.vue';
-import GaMe105 from '../views/GaMe105.vue';
-import GaMe106 from '../views/GaMe106.vue';
-import GaMe107 from '../views/GaMe107.vue';
-import GaMe108 from '../views/GaMe108.vue';
-import GaMe109 from '../views/GaMe109.vue';
-import GaMe110 from '../views/GaMe110.vue';
-import GaMe111 from '../views/GaMe111.vue';
-import GaMe112 from '../views/GaMe112.vue';
-import GaMe113 from '../views/GaMe113.vue';
-import GaMe114 from '../views/GaMe114.vue';
-import GaMe115 from '../views/GaMe115.vue';
-import GaMe116 from '../views/GaMe116.vue';
-import GaMe117 from '../views/GaMe117.vue';
-import GaMe118 from '../views/GaMe118.vue';
-import GaMe119 from '../views/GaMe119.vue';
-import GaMe120 from '../views/GaMe120.vue';
-import GaMe121 from '../views/GaMe121.vue';
-import GaMe122 from '../views/GaMe122.vue';
-import GaMe123 from '../views/GaMe123.vue';
-import GaMe124 from '../views/GaMe124.vue';
-import GaMe125 from '../views/GaMe125.vue';
-import GaMe126 from '../views/GaMe126.vue';
-import GaMe127 from '../views/GaMe127.vue';
-import GaMe128 from '../views/GaMe128.vue';
-import GaMe129 from '../views/GaMe129.vue';
-import GaMe130 from '../views/GaMe130.vue';
-import GaMe131 from '../views/GaMe131.vue';
-import GaMe132 from '../views/GaMe132.vue';
-import GaMe133 from '../views/GaMe133.vue';
-import GaMe134 from '../views/GaMe134.vue';
-import GaMe135 from '../views/GaMe135.vue';
-import GaMe136 from '../views/GaMe136.vue';
-import GaMe137 from '../views/GaMe137.vue';
-import GaMe138 from '../views/GaMe138.vue';
-import GaMe139 from '../views/GaMe139.vue';
-import GaMe140 from '../views/GaMe140.vue';
-import GaMe141 from '../views/GaMe141.vue';
-import GaMe142 from '../views/GaMe142.vue';
-import GaMe143 from '../views/GaMe143.vue';
-import GaMe144 from '../views/GaMe144.vue';
-import GaMe145 from '../views/GaMe145.vue';
-import GaMe146 from '../views/GaMe146.vue';
-import GaMe147 from '../views/GaMe147.vue';
-import GaMe148 from '../views/GaMe148.vue';
-import GaMe149 from '../views/GaMe149.vue';
-import GaMe150 from '../views/GaMe150.vue';
-import GaMe151 from '../views/GaMe151.vue';
-import GaMe152 from '../views/GaMe152.vue';
-import GaMe153 from '../views/GaMe153.vue';
-import GaMe154 from '../views/GaMe154.vue';
-import GaMe155 from '../views/GaMe155.vue';
-import GaMe156 from '../views/GaMe156.vue';
-import GaMe157 from '../views/GaMe157.vue';
-import GaMe158 from '../views/GaMe158.vue';
-import GaMe159 from '../views/GaMe159.vue';
-import GaMe160 from '../views/GaMe160.vue';
-import GaMe161 from '../views/GaMe161.vue';
-import GaMe162 from '../views/GaMe162.vue';
-import GaMe163 from '../views/GaMe163.vue';
-import GaMe164 from '../views/GaMe164.vue';
-import GaMe165 from '../views/GaMe165.vue';
-import GaMe166 from '../views/GaMe166.vue';
-import GaMe167 from '../views/GaMe167.vue';
-import GaMe168 from '../views/GaMe168.vue';
-import GaMe169 from '../views/GaMe169.vue';
-import GaMe170 from '../views/GaMe170.vue';
-import GaMe171 from '../views/GaMe171.vue';
-import GaMe172 from '../views/GaMe172.vue';
-import GaMe173 from '../views/GaMe173.vue';
-import GaMe174 from '../views/GaMe174.vue';
-import GaMe175 from '../views/GaMe175.vue';
-import GaMe176 from '../views/GaMe176.vue';
-import GaMe177 from '../views/GaMe177.vue';
-import GaMe178 from '../views/GaMe178.vue';
-import GaMe179 from '../views/GaMe179.vue';
-import GaMe180 from '../views/GaMe180.vue';
-import GaMe181 from '../views/GaMe181.vue';
-import GaMe182 from '../views/GaMe182.vue';
-import GaMe183 from '../views/GaMe183.vue';
-import GaMe184 from '../views/GaMe184.vue';
-import GaMe185 from '../views/GaMe185.vue';
-import GaMe186 from '../views/GaMe186.vue';
-import GaMe187 from '../views/GaMe187.vue';
-import GaMe188 from '../views/GaMe188.vue';
-import GaMe189 from '../views/GaMe189.vue';
+import GameView0001 from '../views/GameView0001.vue';
+import GameView0002 from '../views/GameView0002.vue';
+import GameView0003 from '../views/GameView0003.vue';
+import GameView0004 from '../views/GameView0004.vue';
+import GameView0005 from '../views/GameView0005.vue';
+import GameView0006 from '../views/GameView0006.vue';
+import GameView0007 from '../views/GameView0007.vue';
+import GameView0008 from '../views/GameView0008.vue';
+import GameView0009 from '../views/GameView0009.vue';
+import GameView0010 from '../views/GameView0010.vue';
+import GameView0011 from '../views/GameView0011.vue';
+import GameView0012 from '../views/GameView0012.vue';
+import GameView0013 from '../views/GameView0013.vue';
+import GameView0014 from '../views/GameView0014.vue';
+import GameView0015 from '../views/GameView0015.vue';
+import GameView0016 from '../views/GameView0016.vue';
+import GameView0017 from '../views/GameView0017.vue';
+import GameView0018 from '../views/GameView0018.vue';
+import GameView0019 from '../views/GameView0019.vue';
+import GameView0020 from '../views/GameView0020.vue';
+import GameView0021 from '../views/GameView0021.vue';
+import GameView0022 from '../views/GameView0022.vue';
+import GameView0023 from '../views/GameView0023.vue';
+import GameView0024 from '../views/GameView0024.vue';
+import GameView0025 from '../views/GameView0025.vue';
+import GameView0026 from '../views/GameView0026.vue';
+import GameView0027 from '../views/GameView0027.vue';
+import GameView0028 from '../views/GameView0028.vue';
+import GameView0029 from '../views/GameView0029.vue';
+import GameView0030 from '../views/GameView0030.vue';
+import GameView0031 from '../views/GameView0031.vue';
+import GameView0032 from '../views/GameView0032.vue';
+import GameView0033 from '../views/GameView0033.vue';
+import GameView0034 from '../views/GameView0034.vue';
+import GameView0035 from '../views/GameView0035.vue';
+import GameView0036 from '../views/GameView0036.vue';
+import GameView0037 from '../views/GameView0037.vue';
+import GameView0038 from '../views/GameView0038.vue';
+import GameView0039 from '../views/GameView0039.vue';
+import GameView0040 from '../views/GameView0040.vue';
+import GameView0041 from '../views/GameView0041.vue';
+import GameView0042 from '../views/GameView0042.vue';
+import GameView0043 from '../views/GameView0043.vue';
+import GameView0044 from '../views/GameView0044.vue';
+import GameView0045 from '../views/GameView0045.vue';
+import GameView0046 from '../views/GameView0046.vue';
+import GameView0047 from '../views/GameView0047.vue';
+import GameView0048 from '../views/GameView0048.vue';
+import GameView0049 from '../views/GameView0049.vue';
+import GameView0050 from '../views/GameView0050.vue';
+import GameView0051 from '../views/GameView0051.vue';
+import GameView0052 from '../views/GameView0052.vue';
+import GameView0053 from '../views/GameView0053.vue';
+import GameView0054 from '../views/GameView0054.vue';
+import GameView0055 from '../views/GameView0055.vue';
+import GameView0056 from '../views/GameView0056.vue';
+import GameView0057 from '../views/GameView0057.vue';
+import GameView0058 from '../views/GameView0058.vue';
+import GameView0059 from '../views/GameView0059.vue';
+import GameView0060 from '../views/GameView0060.vue';
+import GameView0061 from '../views/GameView0061.vue';
+import GameView0062 from '../views/GameView0062.vue';
+import GameView0063 from '../views/GameView0063.vue';
+import GameView0064 from '../views/GameView0064.vue';
+import GameView0065 from '../views/GameView0065.vue';
+import GameView0066 from '../views/GameView0066.vue';
+import GameView0067 from '../views/GameView0067.vue';
+import GameView0068 from '../views/GameView0068.vue';
+import GameView0069 from '../views/GameView0069.vue';
+import GameView0070 from '../views/GameView0070.vue';
+import GameView0071 from '../views/GameView0071.vue';
+import GameView0072 from '../views/GameView0072.vue';
+import GameView0073 from '../views/GameView0073.vue';
+import GameView0074 from '../views/GameView0074.vue';
+import GameView0075 from '../views/GameView0075.vue';
+import GameView0076 from '../views/GameView0076.vue';
+import GameView0077 from '../views/GameView0077.vue';
+import GameView0078 from '../views/GameView0078.vue';
+import GameView0079 from '../views/GameView0079.vue';
+import GameView0080 from '../views/GameView0080.vue';
+import GameView0081 from '../views/GameView0081.vue';
+import GameView0082 from '../views/GameView0082.vue';
+import GameView0083 from '../views/GameView0083.vue';
+import GameView0084 from '../views/GameView0084.vue';
+import GameView0085 from '../views/GameView0085.vue';
+import GameView0086 from '../views/GameView0086.vue';
+import GameView0087 from '../views/GameView0087.vue';
+import GameView0088 from '../views/GameView0088.vue';
+import GameView0089 from '../views/GameView0089.vue';
+import GameView0090 from '../views/GameView0090.vue';
+import GameView0091 from '../views/GameView0091.vue';
+import GameView0092 from '../views/GameView0092.vue';
+import GameView0093 from '../views/GameView0093.vue';
+import GameView0094 from '../views/GameView0094.vue';
+import GameView0095 from '../views/GameView0095.vue';
+import GameView0096 from '../views/GameView0096.vue';
+import GameView0097 from '../views/GameView0097.vue';
+import GameView0098 from '../views/GameView0098.vue';
+import GameView0099 from '../views/GameView0099.vue';
+import GameView0100 from '../views/GameView0100.vue';
+import GameView0101 from '../views/GameView0101.vue';
+import GameView0102 from '../views/GameView0102.vue';
+import GameView0103 from '../views/GameView0103.vue';
+import GameView0104 from '../views/GameView0104.vue';
+import GameView0105 from '../views/GameView0105.vue';
+import GameView0106 from '../views/GameView0106.vue';
+import GameView0107 from '../views/GameView0107.vue';
+import GameView0108 from '../views/GameView0108.vue';
+import GameView0109 from '../views/GameView0109.vue';
+import GameView0110 from '../views/GameView0110.vue';
+import GameView0111 from '../views/GameView0111.vue';
+import GameView0112 from '../views/GameView0112.vue';
+import GameView0113 from '../views/GameView0113.vue';
+import GameView0114 from '../views/GameView0114.vue';
+import GameView0115 from '../views/GameView0115.vue';
+import GameView0116 from '../views/GameView0116.vue';
+import GameView0117 from '../views/GameView0117.vue';
+import GameView0118 from '../views/GameView0118.vue';
+import GameView0119 from '../views/GameView0119.vue';
+import GameView0120 from '../views/GameView0120.vue';
+import GameView0121 from '../views/GameView0121.vue';
+import GameView0122 from '../views/GameView0122.vue';
+import GameView0123 from '../views/GameView0123.vue';
+import GameView0124 from '../views/GameView0124.vue';
+import GameView0125 from '../views/GameView0125.vue';
+import GameView0126 from '../views/GameView0126.vue';
+import GameView0127 from '../views/GameView0127.vue';
+import GameView0128 from '../views/GameView0128.vue';
+import GameView0129 from '../views/GameView0129.vue';
+import GameView0130 from '../views/GameView0130.vue';
+import GameView0131 from '../views/GameView0131.vue';
+import GameView0132 from '../views/GameView0132.vue';
+import GameView0133 from '../views/GameView0133.vue';
+import GameView0134 from '../views/GameView0134.vue';
+import GameView0135 from '../views/GameView0135.vue';
+import GameView0136 from '../views/GameView0136.vue';
+import GameView0137 from '../views/GameView0137.vue';
+import GameView0138 from '../views/GameView0138.vue';
+import GameView0139 from '../views/GameView0139.vue';
+import GameView0140 from '../views/GameView0140.vue';
+import GameView0141 from '../views/GameView0141.vue';
+import GameView0142 from '../views/GameView0142.vue';
+import GameView0143 from '../views/GameView0143.vue';
+import GameView0144 from '../views/GameView0144.vue';
+import GameView0145 from '../views/GameView0145.vue';
+import GameView0146 from '../views/GameView0146.vue';
+import GameView0147 from '../views/GameView0147.vue';
+import GameView0148 from '../views/GameView0148.vue';
+import GameView0149 from '../views/GameView0149.vue';
+import GameView0150 from '../views/GameView0150.vue';
+import GameView0151 from '../views/GameView0151.vue';
+import GameView0152 from '../views/GameView0152.vue';
+import GameView0153 from '../views/GameView0153.vue';
+import GameView0154 from '../views/GameView0154.vue';
+import GameView0155 from '../views/GameView0155.vue';
+import GameView0156 from '../views/GameView0156.vue';
+import GameView0157 from '../views/GameView0157.vue';
+import GameView0158 from '../views/GameView0158.vue';
+import GameView0159 from '../views/GameView0159.vue';
+import GameView0160 from '../views/GameView0160.vue';
+import GameView0161 from '../views/GameView0161.vue';
+import GameView0162 from '../views/GameView0162.vue';
+import GameView0163 from '../views/GameView0163.vue';
+import GameView0164 from '../views/GameView0164.vue';
+import GameView0165 from '../views/GameView0165.vue';
+import GameView0166 from '../views/GameView0166.vue';
+import GameView0167 from '../views/GameView0167.vue';
+import GameView0168 from '../views/GameView0168.vue';
+import GameView0169 from '../views/GameView0169.vue';
+import GameView0170 from '../views/GameView0170.vue';
+import GameView0171 from '../views/GameView0171.vue';
+import GameView0172 from '../views/GameView0172.vue';
+import GameView0173 from '../views/GameView0173.vue';
+import GameView0174 from '../views/GameView0174.vue';
+import GameView0175 from '../views/GameView0175.vue';
+import GameView0176 from '../views/GameView0176.vue';
+import GameView0177 from '../views/GameView0177.vue';
+import GameView0178 from '../views/GameView0178.vue';
+import GameView0179 from '../views/GameView0179.vue';
+import GameView0180 from '../views/GameView0180.vue';
+import GameView0181 from '../views/GameView0181.vue';
+import GameView0182 from '../views/GameView0182.vue';
+import GameView0183 from '../views/GameView0183.vue';
+import GameView0184 from '../views/GameView0184.vue';
+import GameView0185 from '../views/GameView0185.vue';
+import GameView0186 from '../views/GameView0186.vue';
+import GameView0187 from '../views/GameView0187.vue';
+import GameView0188 from '../views/GameView0188.vue';
+import GameView0189 from '../views/GameView0189.vue';
+import GameView0190 from '../views/GameView0190.vue';
+import GameView0191 from '../views/GameView0191.vue';
+import GameView0192 from '../views/GameView0192.vue';
 const routes = [
   {
     path: '/',
     name: 'AllGames',
     component: AllGames,
   },
-{path: '/game1', name: 'GaMe1', component: GaMe1},
-{path: '/game2', name: 'GaMe2', component: GaMe2},
-{path: '/game3', name: 'GaMe3', component: GaMe3},
-{path: '/game4', name: 'GaMe4', component: GaMe4},
-{path: '/game5', name: 'GaMe5', component: GaMe5},
-{path: '/game6', name: 'GaMe6', component: GaMe6},
-{path: '/game7', name: 'GaMe7', component: GaMe7},
-{path: '/game8', name: 'GaMe8', component: GaMe8},
-{path: '/game9', name: 'GaMe9', component: GaMe9},
-{path: '/game10', name: 'GaMe10', component: GaMe10},
-{path: '/game11', name: 'GaMe11', component: GaMe11},
-{path: '/game12', name: 'GaMe12', component: GaMe12},
-{path: '/game13', name: 'GaMe13', component: GaMe13},
-{path: '/game14', name: 'GaMe14', component: GaMe14},
-{path: '/game15', name: 'GaMe15', component: GaMe15},
-{path: '/game16', name: 'GaMe16', component: GaMe16},
-{path: '/game17', name: 'GaMe17', component: GaMe17},
-{path: '/game18', name: 'GaMe18', component: GaMe18},
-{path: '/game19', name: 'GaMe19', component: GaMe19},
-{path: '/game20', name: 'GaMe20', component: GaMe20},
-{path: '/game21', name: 'GaMe21', component: GaMe21},
-{path: '/game22', name: 'GaMe22', component: GaMe22},
-{path: '/game23', name: 'GaMe23', component: GaMe23},
-{path: '/game24', name: 'GaMe24', component: GaMe24},
-{path: '/game25', name: 'GaMe25', component: GaMe25},
-{path: '/game26', name: 'GaMe26', component: GaMe26},
-{path: '/game27', name: 'GaMe27', component: GaMe27},
-{path: '/game28', name: 'GaMe28', component: GaMe28},
-{path: '/game29', name: 'GaMe29', component: GaMe29},
-{path: '/game30', name: 'GaMe30', component: GaMe30},
-{path: '/game31', name: 'GaMe31', component: GaMe31},
-{path: '/game32', name: 'GaMe32', component: GaMe32},
-{path: '/game33', name: 'GaMe33', component: GaMe33},
-{path: '/game34', name: 'GaMe34', component: GaMe34},
-{path: '/game35', name: 'GaMe35', component: GaMe35},
-{path: '/game36', name: 'GaMe36', component: GaMe36},
-{path: '/game37', name: 'GaMe37', component: GaMe37},
-{path: '/game38', name: 'GaMe38', component: GaMe38},
-{path: '/game39', name: 'GaMe39', component: GaMe39},
-{path: '/game40', name: 'GaMe40', component: GaMe40},
-{path: '/game41', name: 'GaMe41', component: GaMe41},
-{path: '/game42', name: 'GaMe42', component: GaMe42},
-{path: '/game43', name: 'GaMe43', component: GaMe43},
-{path: '/game44', name: 'GaMe44', component: GaMe44},
-{path: '/game45', name: 'GaMe45', component: GaMe45},
-{path: '/game46', name: 'GaMe46', component: GaMe46},
-{path: '/game47', name: 'GaMe47', component: GaMe47},
-{path: '/game48', name: 'GaMe48', component: GaMe48},
-{path: '/game49', name: 'GaMe49', component: GaMe49},
-{path: '/game50', name: 'GaMe50', component: GaMe50},
-{path: '/game51', name: 'GaMe51', component: GaMe51},
-{path: '/game52', name: 'GaMe52', component: GaMe52},
-{path: '/game53', name: 'GaMe53', component: GaMe53},
-{path: '/game54', name: 'GaMe54', component: GaMe54},
-{path: '/game55', name: 'GaMe55', component: GaMe55},
-{path: '/game56', name: 'GaMe56', component: GaMe56},
-{path: '/game57', name: 'GaMe57', component: GaMe57},
-{path: '/game58', name: 'GaMe58', component: GaMe58},
-{path: '/game59', name: 'GaMe59', component: GaMe59},
-{path: '/game60', name: 'GaMe60', component: GaMe60},
-{path: '/game61', name: 'GaMe61', component: GaMe61},
-{path: '/game62', name: 'GaMe62', component: GaMe62},
-{path: '/game63', name: 'GaMe63', component: GaMe63},
-{path: '/game64', name: 'GaMe64', component: GaMe64},
-{path: '/game65', name: 'GaMe65', component: GaMe65},
-{path: '/game66', name: 'GaMe66', component: GaMe66},
-{path: '/game67', name: 'GaMe67', component: GaMe67},
-{path: '/game68', name: 'GaMe68', component: GaMe68},
-{path: '/game69', name: 'GaMe69', component: GaMe69},
-{path: '/game70', name: 'GaMe70', component: GaMe70},
-{path: '/game71', name: 'GaMe71', component: GaMe71},
-{path: '/game72', name: 'GaMe72', component: GaMe72},
-{path: '/game73', name: 'GaMe73', component: GaMe73},
-{path: '/game74', name: 'GaMe74', component: GaMe74},
-{path: '/game75', name: 'GaMe75', component: GaMe75},
-{path: '/game76', name: 'GaMe76', component: GaMe76},
-{path: '/game77', name: 'GaMe77', component: GaMe77},
-{path: '/game78', name: 'GaMe78', component: GaMe78},
-{path: '/game79', name: 'GaMe79', component: GaMe79},
-{path: '/game80', name: 'GaMe80', component: GaMe80},
-{path: '/game81', name: 'GaMe81', component: GaMe81},
-{path: '/game82', name: 'GaMe82', component: GaMe82},
-{path: '/game83', name: 'GaMe83', component: GaMe83},
-{path: '/game84', name: 'GaMe84', component: GaMe84},
-{path: '/game85', name: 'GaMe85', component: GaMe85},
-{path: '/game86', name: 'GaMe86', component: GaMe86},
-{path: '/game87', name: 'GaMe87', component: GaMe87},
-{path: '/game88', name: 'GaMe88', component: GaMe88},
-{path: '/game89', name: 'GaMe89', component: GaMe89},
-{path: '/game90', name: 'GaMe90', component: GaMe90},
-{path: '/game91', name: 'GaMe91', component: GaMe91},
-{path: '/game92', name: 'GaMe92', component: GaMe92},
-{path: '/game93', name: 'GaMe93', component: GaMe93},
-{path: '/game94', name: 'GaMe94', component: GaMe94},
-{path: '/game95', name: 'GaMe95', component: GaMe95},
-{path: '/game96', name: 'GaMe96', component: GaMe96},
-{path: '/game97', name: 'GaMe97', component: GaMe97},
-{path: '/game98', name: 'GaMe98', component: GaMe98},
-{path: '/game99', name: 'GaMe99', component: GaMe99},
-{path: '/game100', name: 'GaMe100', component: GaMe100},
-{path: '/game101', name: 'GaMe101', component: GaMe101},
-{path: '/game102', name: 'GaMe102', component: GaMe102},
-{path: '/game103', name: 'GaMe103', component: GaMe103},
-{path: '/game104', name: 'GaMe104', component: GaMe104},
-{path: '/game105', name: 'GaMe105', component: GaMe105},
-{path: '/game106', name: 'GaMe106', component: GaMe106},
-{path: '/game107', name: 'GaMe107', component: GaMe107},
-{path: '/game108', name: 'GaMe108', component: GaMe108},
-{path: '/game109', name: 'GaMe109', component: GaMe109},
-{path: '/game110', name: 'GaMe110', component: GaMe110},
-{path: '/game111', name: 'GaMe111', component: GaMe111},
-{path: '/game112', name: 'GaMe112', component: GaMe112},
-{path: '/game113', name: 'GaMe113', component: GaMe113},
-{path: '/game114', name: 'GaMe114', component: GaMe114},
-{path: '/game115', name: 'GaMe115', component: GaMe115},
-{path: '/game116', name: 'GaMe116', component: GaMe116},
-{path: '/game117', name: 'GaMe117', component: GaMe117},
-{path: '/game118', name: 'GaMe118', component: GaMe118},
-{path: '/game119', name: 'GaMe119', component: GaMe119},
-{path: '/game120', name: 'GaMe120', component: GaMe120},
-{path: '/game121', name: 'GaMe121', component: GaMe121},
-{path: '/game122', name: 'GaMe122', component: GaMe122},
-{path: '/game123', name: 'GaMe123', component: GaMe123},
-{path: '/game124', name: 'GaMe124', component: GaMe124},
-{path: '/game125', name: 'GaMe125', component: GaMe125},
-{path: '/game126', name: 'GaMe126', component: GaMe126},
-{path: '/game127', name: 'GaMe127', component: GaMe127},
-{path: '/game128', name: 'GaMe128', component: GaMe128},
-{path: '/game129', name: 'GaMe129', component: GaMe129},
-{path: '/game130', name: 'GaMe130', component: GaMe130},
-{path: '/game131', name: 'GaMe131', component: GaMe131},
-{path: '/game132', name: 'GaMe132', component: GaMe132},
-{path: '/game133', name: 'GaMe133', component: GaMe133},
-{path: '/game134', name: 'GaMe134', component: GaMe134},
-{path: '/game135', name: 'GaMe135', component: GaMe135},
-{path: '/game136', name: 'GaMe136', component: GaMe136},
-{path: '/game137', name: 'GaMe137', component: GaMe137},
-{path: '/game138', name: 'GaMe138', component: GaMe138},
-{path: '/game139', name: 'GaMe139', component: GaMe139},
-{path: '/game140', name: 'GaMe140', component: GaMe140},
-{path: '/game141', name: 'GaMe141', component: GaMe141},
-{path: '/game142', name: 'GaMe142', component: GaMe142},
-{path: '/game143', name: 'GaMe143', component: GaMe143},
-{path: '/game144', name: 'GaMe144', component: GaMe144},
-{path: '/game145', name: 'GaMe145', component: GaMe145},
-{path: '/game146', name: 'GaMe146', component: GaMe146},
-{path: '/game147', name: 'GaMe147', component: GaMe147},
-{path: '/game148', name: 'GaMe148', component: GaMe148},
-{path: '/game149', name: 'GaMe149', component: GaMe149},
-{path: '/game150', name: 'GaMe150', component: GaMe150},
-{path: '/game151', name: 'GaMe151', component: GaMe151},
-{path: '/game152', name: 'GaMe152', component: GaMe152},
-{path: '/game153', name: 'GaMe153', component: GaMe153},
-{path: '/game154', name: 'GaMe154', component: GaMe154},
-{path: '/game155', name: 'GaMe155', component: GaMe155},
-{path: '/game156', name: 'GaMe156', component: GaMe156},
-{path: '/game157', name: 'GaMe157', component: GaMe157},
-{path: '/game158', name: 'GaMe158', component: GaMe158},
-{path: '/game159', name: 'GaMe159', component: GaMe159},
-{path: '/game160', name: 'GaMe160', component: GaMe160},
-{path: '/game161', name: 'GaMe161', component: GaMe161},
-{path: '/game162', name: 'GaMe162', component: GaMe162},
-{path: '/game163', name: 'GaMe163', component: GaMe163},
-{path: '/game164', name: 'GaMe164', component: GaMe164},
-{path: '/game165', name: 'GaMe165', component: GaMe165},
-{path: '/game166', name: 'GaMe166', component: GaMe166},
-{path: '/game167', name: 'GaMe167', component: GaMe167},
-{path: '/game168', name: 'GaMe168', component: GaMe168},
-{path: '/game169', name: 'GaMe169', component: GaMe169},
-{path: '/game170', name: 'GaMe170', component: GaMe170},
-{path: '/game171', name: 'GaMe171', component: GaMe171},
-{path: '/game172', name: 'GaMe172', component: GaMe172},
-{path: '/game173', name: 'GaMe173', component: GaMe173},
-{path: '/game174', name: 'GaMe174', component: GaMe174},
-{path: '/game175', name: 'GaMe175', component: GaMe175},
-{path: '/game176', name: 'GaMe176', component: GaMe176},
-{path: '/game177', name: 'GaMe177', component: GaMe177},
-{path: '/game178', name: 'GaMe178', component: GaMe178},
-{path: '/game179', name: 'GaMe179', component: GaMe179},
-{path: '/game180', name: 'GaMe180', component: GaMe180},
-{path: '/game181', name: 'GaMe181', component: GaMe181},
-{path: '/game182', name: 'GaMe182', component: GaMe182},
-{path: '/game183', name: 'GaMe183', component: GaMe183},
-{path: '/game184', name: 'GaMe184', component: GaMe184},
-{path: '/game185', name: 'GaMe185', component: GaMe185},
-{path: '/game186', name: 'GaMe186', component: GaMe186},
-{path: '/game187', name: 'GaMe187', component: GaMe187},
-{path: '/game188', name: 'GaMe188', component: GaMe188},
-{path: '/game189', name: 'GaMe189', component: GaMe189},
+{path: '/game0001', name: 'GameView0001', component: GameView0001},
+{path: '/game0002', name: 'GameView0002', component: GameView0002},
+{path: '/game0003', name: 'GameView0003', component: GameView0003},
+{path: '/game0004', name: 'GameView0004', component: GameView0004},
+{path: '/game0005', name: 'GameView0005', component: GameView0005},
+{path: '/game0006', name: 'GameView0006', component: GameView0006},
+{path: '/game0007', name: 'GameView0007', component: GameView0007},
+{path: '/game0008', name: 'GameView0008', component: GameView0008},
+{path: '/game0009', name: 'GameView0009', component: GameView0009},
+{path: '/game0010', name: 'GameView0010', component: GameView0010},
+{path: '/game0011', name: 'GameView0011', component: GameView0011},
+{path: '/game0012', name: 'GameView0012', component: GameView0012},
+{path: '/game0013', name: 'GameView0013', component: GameView0013},
+{path: '/game0014', name: 'GameView0014', component: GameView0014},
+{path: '/game0015', name: 'GameView0015', component: GameView0015},
+{path: '/game0016', name: 'GameView0016', component: GameView0016},
+{path: '/game0017', name: 'GameView0017', component: GameView0017},
+{path: '/game0018', name: 'GameView0018', component: GameView0018},
+{path: '/game0019', name: 'GameView0019', component: GameView0019},
+{path: '/game0020', name: 'GameView0020', component: GameView0020},
+{path: '/game0021', name: 'GameView0021', component: GameView0021},
+{path: '/game0022', name: 'GameView0022', component: GameView0022},
+{path: '/game0023', name: 'GameView0023', component: GameView0023},
+{path: '/game0024', name: 'GameView0024', component: GameView0024},
+{path: '/game0025', name: 'GameView0025', component: GameView0025},
+{path: '/game0026', name: 'GameView0026', component: GameView0026},
+{path: '/game0027', name: 'GameView0027', component: GameView0027},
+{path: '/game0028', name: 'GameView0028', component: GameView0028},
+{path: '/game0029', name: 'GameView0029', component: GameView0029},
+{path: '/game0030', name: 'GameView0030', component: GameView0030},
+{path: '/game0031', name: 'GameView0031', component: GameView0031},
+{path: '/game0032', name: 'GameView0032', component: GameView0032},
+{path: '/game0033', name: 'GameView0033', component: GameView0033},
+{path: '/game0034', name: 'GameView0034', component: GameView0034},
+{path: '/game0035', name: 'GameView0035', component: GameView0035},
+{path: '/game0036', name: 'GameView0036', component: GameView0036},
+{path: '/game0037', name: 'GameView0037', component: GameView0037},
+{path: '/game0038', name: 'GameView0038', component: GameView0038},
+{path: '/game0039', name: 'GameView0039', component: GameView0039},
+{path: '/game0040', name: 'GameView0040', component: GameView0040},
+{path: '/game0041', name: 'GameView0041', component: GameView0041},
+{path: '/game0042', name: 'GameView0042', component: GameView0042},
+{path: '/game0043', name: 'GameView0043', component: GameView0043},
+{path: '/game0044', name: 'GameView0044', component: GameView0044},
+{path: '/game0045', name: 'GameView0045', component: GameView0045},
+{path: '/game0046', name: 'GameView0046', component: GameView0046},
+{path: '/game0047', name: 'GameView0047', component: GameView0047},
+{path: '/game0048', name: 'GameView0048', component: GameView0048},
+{path: '/game0049', name: 'GameView0049', component: GameView0049},
+{path: '/game0050', name: 'GameView0050', component: GameView0050},
+{path: '/game0051', name: 'GameView0051', component: GameView0051},
+{path: '/game0052', name: 'GameView0052', component: GameView0052},
+{path: '/game0053', name: 'GameView0053', component: GameView0053},
+{path: '/game0054', name: 'GameView0054', component: GameView0054},
+{path: '/game0055', name: 'GameView0055', component: GameView0055},
+{path: '/game0056', name: 'GameView0056', component: GameView0056},
+{path: '/game0057', name: 'GameView0057', component: GameView0057},
+{path: '/game0058', name: 'GameView0058', component: GameView0058},
+{path: '/game0059', name: 'GameView0059', component: GameView0059},
+{path: '/game0060', name: 'GameView0060', component: GameView0060},
+{path: '/game0061', name: 'GameView0061', component: GameView0061},
+{path: '/game0062', name: 'GameView0062', component: GameView0062},
+{path: '/game0063', name: 'GameView0063', component: GameView0063},
+{path: '/game0064', name: 'GameView0064', component: GameView0064},
+{path: '/game0065', name: 'GameView0065', component: GameView0065},
+{path: '/game0066', name: 'GameView0066', component: GameView0066},
+{path: '/game0067', name: 'GameView0067', component: GameView0067},
+{path: '/game0068', name: 'GameView0068', component: GameView0068},
+{path: '/game0069', name: 'GameView0069', component: GameView0069},
+{path: '/game0070', name: 'GameView0070', component: GameView0070},
+{path: '/game0071', name: 'GameView0071', component: GameView0071},
+{path: '/game0072', name: 'GameView0072', component: GameView0072},
+{path: '/game0073', name: 'GameView0073', component: GameView0073},
+{path: '/game0074', name: 'GameView0074', component: GameView0074},
+{path: '/game0075', name: 'GameView0075', component: GameView0075},
+{path: '/game0076', name: 'GameView0076', component: GameView0076},
+{path: '/game0077', name: 'GameView0077', component: GameView0077},
+{path: '/game0078', name: 'GameView0078', component: GameView0078},
+{path: '/game0079', name: 'GameView0079', component: GameView0079},
+{path: '/game0080', name: 'GameView0080', component: GameView0080},
+{path: '/game0081', name: 'GameView0081', component: GameView0081},
+{path: '/game0082', name: 'GameView0082', component: GameView0082},
+{path: '/game0083', name: 'GameView0083', component: GameView0083},
+{path: '/game0084', name: 'GameView0084', component: GameView0084},
+{path: '/game0085', name: 'GameView0085', component: GameView0085},
+{path: '/game0086', name: 'GameView0086', component: GameView0086},
+{path: '/game0087', name: 'GameView0087', component: GameView0087},
+{path: '/game0088', name: 'GameView0088', component: GameView0088},
+{path: '/game0089', name: 'GameView0089', component: GameView0089},
+{path: '/game0090', name: 'GameView0090', component: GameView0090},
+{path: '/game0091', name: 'GameView0091', component: GameView0091},
+{path: '/game0092', name: 'GameView0092', component: GameView0092},
+{path: '/game0093', name: 'GameView0093', component: GameView0093},
+{path: '/game0094', name: 'GameView0094', component: GameView0094},
+{path: '/game0095', name: 'GameView0095', component: GameView0095},
+{path: '/game0096', name: 'GameView0096', component: GameView0096},
+{path: '/game0097', name: 'GameView0097', component: GameView0097},
+{path: '/game0098', name: 'GameView0098', component: GameView0098},
+{path: '/game0099', name: 'GameView0099', component: GameView0099},
+{path: '/game0100', name: 'GameView0100', component: GameView0100},
+{path: '/game0101', name: 'GameView0101', component: GameView0101},
+{path: '/game0102', name: 'GameView0102', component: GameView0102},
+{path: '/game0103', name: 'GameView0103', component: GameView0103},
+{path: '/game0104', name: 'GameView0104', component: GameView0104},
+{path: '/game0105', name: 'GameView0105', component: GameView0105},
+{path: '/game0106', name: 'GameView0106', component: GameView0106},
+{path: '/game0107', name: 'GameView0107', component: GameView0107},
+{path: '/game0108', name: 'GameView0108', component: GameView0108},
+{path: '/game0109', name: 'GameView0109', component: GameView0109},
+{path: '/game0110', name: 'GameView0110', component: GameView0110},
+{path: '/game0111', name: 'GameView0111', component: GameView0111},
+{path: '/game0112', name: 'GameView0112', component: GameView0112},
+{path: '/game0113', name: 'GameView0113', component: GameView0113},
+{path: '/game0114', name: 'GameView0114', component: GameView0114},
+{path: '/game0115', name: 'GameView0115', component: GameView0115},
+{path: '/game0116', name: 'GameView0116', component: GameView0116},
+{path: '/game0117', name: 'GameView0117', component: GameView0117},
+{path: '/game0118', name: 'GameView0118', component: GameView0118},
+{path: '/game0119', name: 'GameView0119', component: GameView0119},
+{path: '/game0120', name: 'GameView0120', component: GameView0120},
+{path: '/game0121', name: 'GameView0121', component: GameView0121},
+{path: '/game0122', name: 'GameView0122', component: GameView0122},
+{path: '/game0123', name: 'GameView0123', component: GameView0123},
+{path: '/game0124', name: 'GameView0124', component: GameView0124},
+{path: '/game0125', name: 'GameView0125', component: GameView0125},
+{path: '/game0126', name: 'GameView0126', component: GameView0126},
+{path: '/game0127', name: 'GameView0127', component: GameView0127},
+{path: '/game0128', name: 'GameView0128', component: GameView0128},
+{path: '/game0129', name: 'GameView0129', component: GameView0129},
+{path: '/game0130', name: 'GameView0130', component: GameView0130},
+{path: '/game0131', name: 'GameView0131', component: GameView0131},
+{path: '/game0132', name: 'GameView0132', component: GameView0132},
+{path: '/game0133', name: 'GameView0133', component: GameView0133},
+{path: '/game0134', name: 'GameView0134', component: GameView0134},
+{path: '/game0135', name: 'GameView0135', component: GameView0135},
+{path: '/game0136', name: 'GameView0136', component: GameView0136},
+{path: '/game0137', name: 'GameView0137', component: GameView0137},
+{path: '/game0138', name: 'GameView0138', component: GameView0138},
+{path: '/game0139', name: 'GameView0139', component: GameView0139},
+{path: '/game0140', name: 'GameView0140', component: GameView0140},
+{path: '/game0141', name: 'GameView0141', component: GameView0141},
+{path: '/game0142', name: 'GameView0142', component: GameView0142},
+{path: '/game0143', name: 'GameView0143', component: GameView0143},
+{path: '/game0144', name: 'GameView0144', component: GameView0144},
+{path: '/game0145', name: 'GameView0145', component: GameView0145},
+{path: '/game0146', name: 'GameView0146', component: GameView0146},
+{path: '/game0147', name: 'GameView0147', component: GameView0147},
+{path: '/game0148', name: 'GameView0148', component: GameView0148},
+{path: '/game0149', name: 'GameView0149', component: GameView0149},
+{path: '/game0150', name: 'GameView0150', component: GameView0150},
+{path: '/game0151', name: 'GameView0151', component: GameView0151},
+{path: '/game0152', name: 'GameView0152', component: GameView0152},
+{path: '/game0153', name: 'GameView0153', component: GameView0153},
+{path: '/game0154', name: 'GameView0154', component: GameView0154},
+{path: '/game0155', name: 'GameView0155', component: GameView0155},
+{path: '/game0156', name: 'GameView0156', component: GameView0156},
+{path: '/game0157', name: 'GameView0157', component: GameView0157},
+{path: '/game0158', name: 'GameView0158', component: GameView0158},
+{path: '/game0159', name: 'GameView0159', component: GameView0159},
+{path: '/game0160', name: 'GameView0160', component: GameView0160},
+{path: '/game0161', name: 'GameView0161', component: GameView0161},
+{path: '/game0162', name: 'GameView0162', component: GameView0162},
+{path: '/game0163', name: 'GameView0163', component: GameView0163},
+{path: '/game0164', name: 'GameView0164', component: GameView0164},
+{path: '/game0165', name: 'GameView0165', component: GameView0165},
+{path: '/game0166', name: 'GameView0166', component: GameView0166},
+{path: '/game0167', name: 'GameView0167', component: GameView0167},
+{path: '/game0168', name: 'GameView0168', component: GameView0168},
+{path: '/game0169', name: 'GameView0169', component: GameView0169},
+{path: '/game0170', name: 'GameView0170', component: GameView0170},
+{path: '/game0171', name: 'GameView0171', component: GameView0171},
+{path: '/game0172', name: 'GameView0172', component: GameView0172},
+{path: '/game0173', name: 'GameView0173', component: GameView0173},
+{path: '/game0174', name: 'GameView0174', component: GameView0174},
+{path: '/game0175', name: 'GameView0175', component: GameView0175},
+{path: '/game0176', name: 'GameView0176', component: GameView0176},
+{path: '/game0177', name: 'GameView0177', component: GameView0177},
+{path: '/game0178', name: 'GameView0178', component: GameView0178},
+{path: '/game0179', name: 'GameView0179', component: GameView0179},
+{path: '/game0180', name: 'GameView0180', component: GameView0180},
+{path: '/game0181', name: 'GameView0181', component: GameView0181},
+{path: '/game0182', name: 'GameView0182', component: GameView0182},
+{path: '/game0183', name: 'GameView0183', component: GameView0183},
+{path: '/game0184', name: 'GameView0184', component: GameView0184},
+{path: '/game0185', name: 'GameView0185', component: GameView0185},
+{path: '/game0186', name: 'GameView0186', component: GameView0186},
+{path: '/game0187', name: 'GameView0187', component: GameView0187},
+{path: '/game0188', name: 'GameView0188', component: GameView0188},
+{path: '/game0189', name: 'GameView0189', component: GameView0189},
+{path: '/game0190', name: 'GameView0190', component: GameView0190},
+{path: '/game0191', name: 'GameView0191', component: GameView0191},
+{path: '/game0192', name: 'GameView0192', component: GameView0192},
 ];
 
 const router = createRouter({

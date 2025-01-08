@@ -57,33 +57,38 @@ def read_data() -> list:
   return data, game_to_id, id_to_game
 
 def main():
+  name_zero_fill_count = 4
   data, game_to_id, id_to_game = read_data()
   index_js_code = read_template('./template/index.js')
   views_vue_code = read_template('./template/views.vue')
   delete_all_files_in_directory('./vue-project/src/views/')
 
+  # 注意，这是一个危险的操作，ID强制填充0后，得到的ID不能再用于索引反向得到Game
+  for k in game_to_id.keys():
+    game_to_id[k] = str(game_to_id[k]).zfill(name_zero_fill_count)
+
   with open('./vue-project/src/router/index.js', 'w', encoding='utf-8') as file:
     file.write(write_code(index_js_code,3,4))
     for game in data.keys():
-      file.write(f'import GaMe{game_to_id[game]} from \'../views/GaMe{game_to_id[game]}.vue\';\n')
+      file.write(f'import GameView{game_to_id[game]} from \'../views/GameView{game_to_id[game]}.vue\';\n')
     file.write(write_code(index_js_code,6,11))
     for game in data.keys():
-      file.write(f'{{path: \'/game{game_to_id[game]}\', name: \'GaMe{game_to_id[game]}\', component: GaMe{game_to_id[game]}}},\n')
+      file.write(f'{{path: \'/game{game_to_id[game]}\', name: \'GameView{game_to_id[game]}\', component: GameView{game_to_id[game]}}},\n')
     file.write(write_code(index_js_code,12,19))
 
   with open('./vue-project/src/views/AllGames.vue', 'w', encoding='utf-8') as file:
     file.write(write_code(views_vue_code,3,22))
     for game in data.keys():
       file.write(f'"{game}": "/game{game_to_id[game]}",\n')
-    file.write(write_code(views_vue_code,24,77))
+    file.write(write_code(views_vue_code,24,41))
 
   for game in data.keys():
-    with open(f'./vue-project/src/views/GaMe{game_to_id[game]}.vue', 'w', encoding='utf-8') as file:
+    with open(f'./vue-project/src/views/GameView{game_to_id[game]}.vue', 'w', encoding='utf-8') as file:
       file.write(write_code(views_vue_code,3,22))
       # file.write(f'"回到首页": "/",\n')
       for date in data[game]:
         file.write(f'"{date[0]}": "{date[1]}",\n')
-      file.write(write_code(views_vue_code,24,77))
+      file.write(write_code(views_vue_code,24,41))
 
 if __name__ == '__main__':
   main()
