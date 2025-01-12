@@ -18,8 +18,7 @@ export default {
   data() {
     return {
       links: {
-"2021-01-19[录像缺失]": "",
-"2021-01-29": "https://v.douyu.com/show/Qyz171zoOGDMBJj9",
+"2024-12-25[内含金曲「心太卵」和「冷冰冰」]": "https://v.douyu.com/show/EO0XvNwlaLB7DrBd",
       }
     };
   },

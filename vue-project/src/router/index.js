@@ -192,6 +192,7 @@ import GameView0189 from '../views/GameView0189.vue';
 import GameView0190 from '../views/GameView0190.vue';
 import GameView0191 from '../views/GameView0191.vue';
 import GameView0192 from '../views/GameView0192.vue';
+import GameView0193 from '../views/GameView0193.vue';
 const routes = [
   {
     path: '/',
@@ -390,6 +391,7 @@ const routes = [
 {path: '/game0190', name: 'GameView0190', component: GameView0190},
 {path: '/game0191', name: 'GameView0191', component: GameView0191},
 {path: '/game0192', name: 'GameView0192', component: GameView0192},
+{path: '/game0193', name: 'GameView0193', component: GameView0193},
 ];
 
 const router = createRouter({
