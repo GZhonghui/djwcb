@@ -30,6 +30,7 @@ export default {
 "2023-11-30": "https://v.douyu.com/show/n8GzMX8e0r1M6qyP",
 "2023-12-01[比赛海选]": "https://v.douyu.com/show/yVY8WwdpDLVvLOz9",
 "2023-12-11[比赛-16强]": "https://v.douyu.com/show/qJgOWxgwRLZMkVzL",
+"2025-04-19": "https://v.douyu.com/show/yVmjvBgQojz7qkNb",
       }
     };
   },

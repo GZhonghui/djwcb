@@ -18,8 +18,11 @@ export default {
   data() {
     return {
       links: {
-"2024-09-02": "https://v.douyu.com/show/XqeO74N45yeWxywG",
-"2025-01-30": "https://v.douyu.com/show/a4Jj7lB4Y36WDk01",
+"2025-04-06": "https://v.douyu.com/show/mPyq7obA5zdv1gLY",
+"2025-04-08": "https://v.douyu.com/show/Aox276Yn1Y8vVz8Z",
+"2025-04-09": "https://v.douyu.com/show/0Q8mMY5XaPjM49Ad",
+"2025-04-10": "https://v.douyu.com/show/1LDR7QRXNkBMJzx8",
+"2025-04-11": "https://v.douyu.com/show/6Aw87OQXl3dWYGkg",
       }
     };
   },

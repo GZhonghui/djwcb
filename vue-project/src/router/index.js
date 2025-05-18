@@ -193,6 +193,22 @@ import GameView0190 from '../views/GameView0190.vue';
 import GameView0191 from '../views/GameView0191.vue';
 import GameView0192 from '../views/GameView0192.vue';
 import GameView0193 from '../views/GameView0193.vue';
+import GameView0194 from '../views/GameView0194.vue';
+import GameView0195 from '../views/GameView0195.vue';
+import GameView0196 from '../views/GameView0196.vue';
+import GameView0197 from '../views/GameView0197.vue';
+import GameView0198 from '../views/GameView0198.vue';
+import GameView0199 from '../views/GameView0199.vue';
+import GameView0200 from '../views/GameView0200.vue';
+import GameView0201 from '../views/GameView0201.vue';
+import GameView0202 from '../views/GameView0202.vue';
+import GameView0203 from '../views/GameView0203.vue';
+import GameView0204 from '../views/GameView0204.vue';
+import GameView0205 from '../views/GameView0205.vue';
+import GameView0206 from '../views/GameView0206.vue';
+import GameView0207 from '../views/GameView0207.vue';
+import GameView0208 from '../views/GameView0208.vue';
+import GameView0209 from '../views/GameView0209.vue';
 const routes = [
   {
     path: '/',
@@ -392,6 +408,22 @@ const routes = [
 {path: '/game0191', name: 'GameView0191', component: GameView0191},
 {path: '/game0192', name: 'GameView0192', component: GameView0192},
 {path: '/game0193', name: 'GameView0193', component: GameView0193},
+{path: '/game0194', name: 'GameView0194', component: GameView0194},
+{path: '/game0195', name: 'GameView0195', component: GameView0195},
+{path: '/game0196', name: 'GameView0196', component: GameView0196},
+{path: '/game0197', name: 'GameView0197', component: GameView0197},
+{path: '/game0198', name: 'GameView0198', component: GameView0198},
+{path: '/game0199', name: 'GameView0199', component: GameView0199},
+{path: '/game0200', name: 'GameView0200', component: GameView0200},
+{path: '/game0201', name: 'GameView0201', component: GameView0201},
+{path: '/game0202', name: 'GameView0202', component: GameView0202},
+{path: '/game0203', name: 'GameView0203', component: GameView0203},
+{path: '/game0204', name: 'GameView0204', component: GameView0204},
+{path: '/game0205', name: 'GameView0205', component: GameView0205},
+{path: '/game0206', name: 'GameView0206', component: GameView0206},
+{path: '/game0207', name: 'GameView0207', component: GameView0207},
+{path: '/game0208', name: 'GameView0208', component: GameView0208},
+{path: '/game0209', name: 'GameView0209', component: GameView0209},
 ];
 
 const router = createRouter({

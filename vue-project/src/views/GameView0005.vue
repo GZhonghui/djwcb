@@ -37,6 +37,8 @@ export default {
 "2024-08-28": "https://v.douyu.com/show/JmbBMkolAxKM40XA",
 "2025-01-07[哈尔滨]": "https://v.douyu.com/show/ERALvEqrnVav1Vw0",
 "2025-01-08[哈尔滨]": "https://v.douyu.com/show/jNBdvnbxkg0vE2yw",
+"2025-01-28[2025新年烟花]": "https://v.douyu.com/show/JmbBMkoJ8zOM40XA",
+"2025-05-12[钓鱼大师小戴]": "https://v.douyu.com/show/Bjq4Mex6DrJ75Ea8",
       }
     };
   },
