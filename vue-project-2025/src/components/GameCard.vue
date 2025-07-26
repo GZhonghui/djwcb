@@ -13,7 +13,7 @@ const props = defineProps({
 const router = useRouter();
 
 function onClick() {
-  router.push("/game")
+  router.push(`/game/${props.id}`)
 }
 
 </script>
@@ -22,7 +22,7 @@ function onClick() {
   <n-card
     :title="props.title"
     hoverable
-    style="width: 256px; height: 128px; cursor: pointer;"
+    style="width: 192px; height: 128px; cursor: pointer;"
     @click="onClick"
   >
     {{ props.time }} ({{ props.days }})

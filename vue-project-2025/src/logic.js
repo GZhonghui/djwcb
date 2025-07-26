@@ -6,6 +6,7 @@ async function loadData() {
 
   let gameList = []
   let gameDict = {}
+  let recordDict = {} // id -> []
   let gameCount = 0
 
   let loadGame = function(date, name, comment, url) {
@@ -17,10 +18,20 @@ async function loadData() {
         "time": date,
         "days": 0,
       }
+      recordDict[gameCount] = []
     }
     let game = gameDict[name];
     game["time"] = date;
     game["days"]++;
+
+    let id = game["id"]
+    let recordID = recordDict[id].length + 1
+    recordDict[id].push({
+      id: recordID,
+      title: date,
+      comment: comment,
+      url: url
+    })
   }
 
   let loadDay = function(date, today) {
@@ -51,7 +62,8 @@ async function loadData() {
 
   return {
     "files": indexData.files,
-    "games": gameList
+    "games": gameList,
+    "records": recordDict
   }
 }
 

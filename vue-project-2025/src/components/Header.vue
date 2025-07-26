@@ -30,7 +30,7 @@ function onClickTitle() {
 
 <template>
   <header class="header-bar">
-    <h1 class="title" @click="onClickTitle">戴大哥 老年人回放（点我返回）</h1>
+    <h1 class="title" @click="onClickTitle">戴大哥 老年人活动汇总</h1>
     <div class="actions">
       <n-button type="primary">直播间</n-button>
     </div>

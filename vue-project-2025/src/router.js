@@ -5,7 +5,11 @@ import RecordFlow from "./views/RecordFlow.vue";
 
 const routes = [
   { path: '/', component: GameFlow },
-  { path: '/game', component: RecordFlow },
+  {
+    path: '/game/:id(\\d+)',
+    component: RecordFlow,
+    props: route => ({ id: Number(route.params.id) })
+  },
 ]
 
 export const router = createRouter({
