@@ -26,13 +26,17 @@ function onClickTitle() {
   }
 }
 
+function onClickLive() {
+  window.open("https://douyu.com/93589", '_blank')
+}
+
 </script>
 
 <template>
   <header class="header-bar">
     <h1 class="title" @click="onClickTitle">戴大哥 老年人活动汇总</h1>
     <div class="actions">
-      <n-button type="primary">直播间</n-button>
+      <n-button type="primary" @click="onClickLive">直播间</n-button>
     </div>
   </header>
 </template>
