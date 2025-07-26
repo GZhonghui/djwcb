@@ -1,16 +1,36 @@
 <script setup>
 
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
+import { ref, computed } from 'vue';
+import { useRouter, useRoute } from 'vue-router';
 import {
   NButton,
 } from 'naive-ui';
+
+const router = useRouter();
+const route = useRoute();
+
+const isHome = computed(() => route.path === '/')
+
+function onClickTitle() {
+  if (isHome.value) {
+    // window.scrollTo({ top: 0, behavior: 'smooth' })
+    router.push('/')
+    return
+  }
+
+  if (window.history.length > 1) {
+    // window.scrollTo({ top: 0, behavior: 'smooth' })
+    router.back()
+  } else {
+    router.push('/')
+  }
+}
 
 </script>
 
 <template>
   <header class="header-bar">
-    <h1 class="title">戴大哥 老年人回放</h1>
+    <h1 class="title" @click="onClickTitle">戴大哥 老年人回放（点我返回）</h1>
     <div class="actions">
       <n-button type="primary">直播间</n-button>
     </div>
@@ -34,6 +54,7 @@ import {
 .title {
   margin: 0;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .actions {

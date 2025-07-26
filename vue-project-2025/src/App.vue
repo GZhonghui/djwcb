@@ -1,14 +1,14 @@
 <script setup>
 
+import { ref, onMounted } from 'vue';
 import Header from './components/Header.vue';
-import GameFlow from './views/GameFlow.vue';
 
 </script>
 
 <template>
   <div class="page">
     <Header />
-    <GameFlow />
+    <RouterView />
   </div>
 </template>
 
