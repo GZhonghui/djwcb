@@ -1,9 +1,12 @@
 # 戴佳伟 老年人活动 录播汇总
 
-- http://djw.line.pm/
-- https://www.gzher.com/djwcb/
+唯一地址：https://djwcb.com/
 
-## 构建流程
+## 构建流程（新版 vue-project-2025）
+- 构建 vue 项目（npm run build）
+- 作为静态资源托管即可
+
+## 构建流程（旧版 vue-project）
 
 ### Github Pages
 ```
