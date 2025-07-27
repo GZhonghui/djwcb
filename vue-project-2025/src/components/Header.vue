@@ -1,5 +1,5 @@
 <script setup>
-
+// Header.vue 头部组件
 import { ref, computed } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
 import {
@@ -9,15 +9,19 @@ import {
 const router = useRouter();
 const route = useRoute();
 
+// 使用 router.path 来判断当前的路由
 const isHome = computed(() => route.path === '/')
 
 function onClickTitle() {
   if (isHome.value) {
     // window.scrollTo({ top: 0, behavior: 'smooth' })
+    // 在路由之间跳转
     router.push('/')
     return
   }
 
+  // 如果可以返回上一页，则返回上一页
+  // window.history.length 是浏览器历史记录的长度（当前页面的历史）
   if (window.history.length > 1) {
     // window.scrollTo({ top: 0, behavior: 'smooth' })
     router.back()
@@ -42,6 +46,7 @@ function onClickLive() {
 </template>
 
 <style scoped>
+/* scoped表示样式只作用于当前组件 */
 .header-bar {
   width: 100%;
   height: 64px;
@@ -58,7 +63,7 @@ function onClickLive() {
 .title {
   margin: 0;
   font-size: 24px;
-  cursor: pointer;
+  cursor: pointer; /* 鼠标悬停时显示手型光标 */
 }
 
 .actions {
