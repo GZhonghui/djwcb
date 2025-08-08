@@ -77,13 +77,14 @@ function onSearch() {
 /* scoped表示样式只作用于当前组件 */
 .header-bar {
   width: 100%;
-  height: 64px;
+  height: auto;
   margin-bottom: 16px;
   background: #000000;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px;
+  padding: 12px 24px;
   box-sizing: border-box;
   color: #fff;
   position: relative;
