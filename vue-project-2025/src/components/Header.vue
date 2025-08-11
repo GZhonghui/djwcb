@@ -19,6 +19,9 @@ const searchQuery = ref('')
 const store = useStaticDataStore()
 
 function onClickTitle() {
+  // 清空搜索关键字
+  store.updateSearchStr('')
+
   if (isHome.value) {
     // window.scrollTo({ top: 0, behavior: 'smooth' })
     // 在路由之间跳转

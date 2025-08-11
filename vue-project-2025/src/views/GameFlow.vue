@@ -28,16 +28,17 @@ const games = computed(() => (data.value ? data.value.games : []))
 const page = ref(Number(route.query.page) || 1)
 const pageSize = ref(Number(route.query.pageSize) || 48)
 
-// computed 是 Vue 的响应式计算属性
-const pageCount = computed(() =>
-  Math.ceil(games.value.length / pageSize.value || 1)
-)
-
-const fuse = new Fuse(games.value, {keys: ['title']})
+// 创建 Fuse 实例，使用 computed 让它响应式更新
+const fuse = computed(() => new Fuse(games.value, {keys: ['title']}))
 
 const filteredGames = computed(() => {
-  return search_str.value ? fuse.search(search_str.value).map(result => result.item) : games.value
+  return search_str.value ? fuse.value.search(search_str.value).map(result => result.item) : games.value
 })
+
+// computed 是 Vue 的响应式计算属性 - 基于过滤后的游戏数量计算页数
+const pageCount = computed(() =>
+  Math.ceil(filteredGames.value.length / pageSize.value) || 1
+)
 
 const pagedGames = computed(() => {
   const start = (page.value - 1) * pageSize.value
@@ -48,6 +49,11 @@ function onPageSizeChange(size) {
   pageSize.value = size
   page.value = 1
 }
+
+// 监听搜索字符串变化，重置页码
+watch(search_str, () => {
+  page.value = 1
+})
 
 // 监听 page 和 pageSize 的变化，更新路由的查询参数
 // page 和 pageSize 来自url的查询参数
