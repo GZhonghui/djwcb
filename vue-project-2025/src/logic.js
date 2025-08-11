@@ -89,7 +89,8 @@ export const useStaticDataStore = defineStore("StaticData", {
     data: null,
     isReady: false,
     loading: false,
-    error: null
+    error: null,
+    search_str: "",
   }),
   // 定义 store 的函数
   actions: {
@@ -109,6 +110,9 @@ export const useStaticDataStore = defineStore("StaticData", {
       } finally {
         this.loading = false
       }
+    },
+    updateSearchStr(new_str) {
+      this.search_str = new_str
     }
   }
 })

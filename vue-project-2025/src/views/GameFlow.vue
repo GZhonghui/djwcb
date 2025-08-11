@@ -7,13 +7,14 @@ import { ref, computed, watch } from 'vue';
 import { storeToRefs } from 'pinia';
 import { useStaticDataStore } from '@/logic';
 import { useRoute, useRouter } from 'vue-router'
+import Fuse from 'fuse.js';
 
 const route = useRoute()
 const router = useRouter()
 
 // 引入 pinia 的全局数据
 const store = useStaticDataStore()
-const { data, isReady, loading, error } = storeToRefs(store)
+const { data, search_str, isReady, loading, error } = storeToRefs(store)
 
 // 确保数据已准备好
 // data 是一个 ref，所以需要用 data.value 来访问实际数据
@@ -32,9 +33,15 @@ const pageCount = computed(() =>
   Math.ceil(games.value.length / pageSize.value || 1)
 )
 
+const fuse = new Fuse(games.value, {keys: ['title']})
+
+const filteredGames = computed(() => {
+  return search_str.value ? fuse.search(search_str.value).map(result => result.item) : games.value
+})
+
 const pagedGames = computed(() => {
   const start = (page.value - 1) * pageSize.value
-  return games.value.slice(start, start + pageSize.value)
+  return filteredGames.value.slice(start, start + pageSize.value)
 })
 
 function onPageSizeChange(size) {
