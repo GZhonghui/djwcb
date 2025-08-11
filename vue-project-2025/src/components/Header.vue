@@ -14,6 +14,7 @@ const route = useRoute();
 // 使用 router.path 来判断当前的路由
 const isHome = computed(() => route.path === '/')
 const showSearchInput = ref(false)
+const isInputFocused = ref(false)
 const searchQuery = ref('')
 const store = useStaticDataStore()
 
@@ -49,7 +50,7 @@ function onSearch() {
   <header 
     class="header-bar"
     @mouseenter="showSearchInput = true"
-    @mouseleave="showSearchInput = false"
+    @mouseleave="isInputFocused || (showSearchInput = false)"
   >
     <h1 class="title" @click="onClickTitle">戴大哥 老年人活动汇总</h1>
     <div class="actions">
@@ -63,6 +64,8 @@ function onSearch() {
             placeholder="请输入搜索内容"
             clearable
             @keyup.enter="onSearch"
+            @focus="isInputFocused = true"
+            @blur="showSearchInput = isInputFocused = false"
           />
         </transition>
         <n-button type="primary" @click="onSearch">搜索</n-button>
