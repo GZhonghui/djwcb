@@ -44,6 +44,7 @@ function onClickLive() {
 }
 
 function onSearch() {
+  showSearchInput.value = !showSearchInput.value;
   store.updateSearchStr(searchQuery.value);
   searchQuery.value = '';
 }
