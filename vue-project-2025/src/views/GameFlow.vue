@@ -1,6 +1,6 @@
 <script setup>
 
-import { NFlex, NPagination } from 'naive-ui';
+import { NFlex, NPagination, NSpin } from 'naive-ui';
 
 import GameCard from '@/components/GameCard.vue';
 import { ref, computed, watch } from 'vue';
@@ -83,33 +83,50 @@ watch(
 
 <template>
   <div id="root">
-    <n-flex justify="center" wrap>
-      <GameCard
-        v-for="g in pagedGames"
-        :key="g.id"
-        :id="g.id"
-        :title="g.title"
-        :time="g.time"
-        :days="g.days"
-      />
-    </n-flex>
+    <div v-if="loading" class="loading-wrap">
+      <n-spin size="large">
+        <template #description>
+          数据加载中，请稍候...
+        </template>
+      </n-spin>
+    </div>
 
-    <!-- 分页组件 -->
-    <n-flex justify="center" style="margin:32px;">
-      <n-pagination
-        v-model:page="page"
-        :page-size="pageSize"
-        :page-count="pageCount"
-        show-size-picker
-        :page-sizes="[48, 96]"
-        @update:page-size="onPageSizeChange"
-      />
-    </n-flex>
+    <template v-else>
+      <n-flex justify="center" wrap>
+        <GameCard
+          v-for="g in pagedGames"
+          :key="g.id"
+          :id="g.id"
+          :title="g.title"
+          :time="g.time"
+          :days="g.days"
+        />
+      </n-flex>
+
+      <!-- 分页组件 -->
+      <n-flex justify="center" style="margin:32px;">
+        <n-pagination
+          v-model:page="page"
+          :page-size="pageSize"
+          :page-count="pageCount"
+          show-size-picker
+          :page-sizes="[48, 96]"
+          @update:page-size="onPageSizeChange"
+        />
+      </n-flex>
+    </template>
   </div>
 </template>
 
 <style scoped>
 #root {
   padding: 8px;
+}
+
+.loading-wrap {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
