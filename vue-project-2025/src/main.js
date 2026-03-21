@@ -17,11 +17,12 @@ async function bootstrap() {
   // 使用自定义路由
   app.use(router)
 
-  // 等待数据初始化完成
+  // 先挂载页面，再异步加载数据，确保首次进入可见 loading 状态
+  app.mount('#app')
+
+  // 异步初始化数据
   const store = useStaticDataStore(pinia)
   await store.init()
-
-  app.mount('#app')
 }
 
 bootstrap()
