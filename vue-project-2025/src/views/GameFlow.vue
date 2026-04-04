@@ -22,11 +22,11 @@ const games = computed(() => (data.value ? data.value.games : []))
 
 // || 表示：前者有则用前者，否则用后者
 // route.query是路由的查询参数（?后面的参数）
-// 例如：/game?page=2&pageSize=48
-// 这里的page和pageSize是可选的，如果没有则使用默认值
+// 例如：/game?page=2&page_size=48
+// 这里的page和page_size是可选的，如果没有则使用默认值
 // AI：从 URL query 里恢复
 const page = ref(Number(route.query.page) || 1)
-const pageSize = ref(Number(route.query.pageSize) || 48)
+const pageSize = ref(Number(route.query.page_size) || 48)
 
 // 创建 Fuse 实例，使用 computed 让它响应式更新
 const fuse = computed(() => new Fuse(games.value, {keys: ['title']}))
@@ -63,7 +63,7 @@ watch([page, pageSize], ([p, ps]) => {
     query: {
       ...route.query,
       page: String(p),
-      pageSize: String(ps)
+      page_size: String(ps)
     }
   })
 })
@@ -74,7 +74,7 @@ watch(
   () => route.query,
   (q) => {
     const p = Number(q.page) || 1
-    const ps = Number(q.pageSize) || 48
+    const ps = Number(q.page_size) || 48
     if (p !== page.value) page.value = p
     if (ps !== pageSize.value) pageSize.value = ps
   }
