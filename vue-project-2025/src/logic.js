@@ -29,7 +29,12 @@ async function loadData() {
       recordDict[gameCount] = []
     }
     let game = gameDict[name];
-    game["time"] = date;
+    // 记录该游戏“最新一条记录”的日期（日期是 YYYY-MM-DD，可直接按字符串比较）
+    // 注意：数据文件并非严格按时间顺序加载（例如 2020_to_2022_misc.json 排在 2021/2022 之前），
+    // 所以这里取较大值而不是直接覆盖，才能得到真正的最新日期
+    if (date > game["time"]) {
+      game["time"] = date;
+    }
     game["days"]++;
 
     let id = game["id"]
@@ -69,8 +74,14 @@ async function loadData() {
     loadFile(json)
   }
 
-  // 将游戏列表转换为数组并按 id 排序
-  gameList = Object.values(gameDict).sort((a, b) => b.id - a.id);
+  // 将游戏列表转换为数组，按“最新记录日期”降序排序：最近玩过的游戏排在最前面
+  // 日期相同时，用 id 降序作为稳定的次级排序
+  gameList = Object.values(gameDict).sort((a, b) => {
+    if (a.time !== b.time) {
+      return a.time < b.time ? 1 : -1
+    }
+    return b.id - a.id
+  });
 
   return {
     "files": indexData.files,
